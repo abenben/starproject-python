@@ -23,7 +23,7 @@
 
 ## Pythonの人気
 
-![pypl2020](slido01-base/images/pypl2020.png)
++++?image=slido01-base/images/pypl2020.png&position=bottom&size=auto 50%
 
 ---
 

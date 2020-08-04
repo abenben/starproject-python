@@ -15,7 +15,8 @@
 
 ---
 おまれは誰？
-?image=slide01-base/images/pypl2020.png&size=auto 100%
+
+![alt](slide01-base/images/abenben.png)
 
 +++
 ## Twitter

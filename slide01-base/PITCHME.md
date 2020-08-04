@@ -21,9 +21,9 @@
 
 ---
 
-## Pythonの人気
++++?image=slide01-base/images/pypl2020.png&size=auto 40%
 
-![alt](slide01-base/images/pypl2020.png)
++++
 
 ## Python開発環境の整え方
 

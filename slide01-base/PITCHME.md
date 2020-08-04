@@ -10,6 +10,7 @@
 
 ## アジェンダ
 
+* Pythonコミュニティについて
 * Pythonについて
 * 開発環境の準備方法
 
@@ -24,7 +25,7 @@
 
 ---
 
-## コミュニティ
+## Pythonコミュニティ
 
 * [PyCon JP](https://pyconjp.connpass.com/event/181288/)
 * [Start Python Club](https://startpython.connpass.com/)
@@ -56,6 +57,22 @@
 * 専門分野での実績がある
 * 将来性が高い
 * 年収が高い！？
+
+---
+
+## Pythonのドキュメント
+
+* [Pythonメインサイト日本語版](https://www.python.jp/)
+* [Python言語リファレンス](https://docs.python.org/ja/3/reference/index.html)
+* [Python標準リファレンス](https://docs.python.org/ja/3/library/)
+
+---
+
+## Google Colaboratory
+
+* 学生、データ サイエンティスト、AI リサーチャーの皆さんの作業を効率化するツール。
+* 今回の講義のような、学習ツールには最適な環境（個別に環境を準備しなくても済む）
+* ただし、通常の仕事は、アプリケーションを開発する必要があるので、その場合は開発環境を整える必要がある（次ページを参照）。
 
 ---
 

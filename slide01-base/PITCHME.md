@@ -14,7 +14,6 @@
 * 開発環境の準備方法
 
 ---
-おまれは誰？
 
 ![alt](slide01-base/images/abenben.jpg)
 
@@ -285,6 +284,10 @@ Uninstalling beautifulsoup4-4.8.0:
 * とくになければ以下がおすすめ
   * VSCode: [`code.visualstudio.com`](https://code.visualstudio.com/)
   * PyCharm: [`www.jetbrains.com/pycharm`](https://www.jetbrains.com/pycharm/)
+
++++?image=slide01-base/images/vscode.jpg&size=auto 100%
+
++++?image=slide01-base/images/pycharm.jpg&size=auto 100%
 
 ---
 

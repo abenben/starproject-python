@@ -19,11 +19,9 @@
 
  `@abenben`
 
+---?image=slide01-base/images/pypl2020.png&size=auto 40%
+
 ---
-
-+++?image=slide01-base/images/pypl2020.png&size=auto 40%
-
-+++
 
 ## Python開発環境の整え方
 

@@ -21,6 +21,12 @@
 
 ---
 
+## Pythonの人気
+
+![pypl2020](slido01-base/images/pypl2020.png)
+
+---
+
 ## Python開発環境の整え方
 
 * Pythonの環境について

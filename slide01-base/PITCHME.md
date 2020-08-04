@@ -16,7 +16,7 @@
 ---
 おまれは誰？
 
-![alt](slide01-base/images/abenben.png)
+![alt](slide01-base/images/abenben.jpg)
 
 +++
 ## Twitter

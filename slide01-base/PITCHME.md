@@ -23,9 +23,39 @@
  [@abenben](https://twitter.com/abenben)
 
 ---
+
+## コミュニティ
+
+* [PyCon JP](https://pyconjp.connpass.com/event/181288/)
+* [Start Python Club](https://startpython.connpass.com/)
+* [fin-py](https://fin-py.connpass.com/)
+* [Pythoh もくもく会](https://mokupy.connpass.com/)
+
++++
+
+## 技術コミュニティのメリット
+
+＊ 触れたことのない技術を知る機会が増える
+＊ 一緒に勉強する仲間を作れる
+＊ 仕事など引き合いがあったりする
+
+---
+
 ## Pythonの人気
 
 +++?image=slide01-base/images/pypl2020.png&size=auto 100%
+
+---
+
+## Pythonの特徴
+
+* 文法がシンプルで可読性が高い
+* コンパイルが不要
+* 便利なライブラリが充実
+* 便利なフレームワークが充実
+* 専門分野での実績がある
+* 将来性が高い
+* 年収が高い！？
 
 ---
 

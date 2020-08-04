@@ -29,7 +29,7 @@
 * [PyCon JP](https://pyconjp.connpass.com/event/181288/)
 * [Start Python Club](https://startpython.connpass.com/)
 * [fin-py](https://fin-py.connpass.com/)
-* [Pythoh もくもく会](https://mokupy.connpass.com/)
+* [Python もくもく会](https://mokupy.connpass.com/)
 
 +++
 
@@ -37,7 +37,7 @@
 
 * 触れたことのない技術を知る機会が増える
 * 一緒に勉強する仲間を作れる
-* 仕事など引き合いがあったりする
+* 仕事や企業から引き合いがあったりする
 
 ---
 
@@ -77,8 +77,6 @@
 ## 環境構築ガイド
 
 * [`www.python.jp/install/install`](https://www.python.jp/install/install.html)
-
-![python.jpの環境構築ガイド](osc2020do/images/pythonjp-install.png)
 
 +++
 
@@ -232,15 +230,11 @@ Successfully installed beautifulsoup4-4.8.0
 Successfully installed beautifulsoup4-4.9.1
 ```
 
-+++?code=osc2020do/piplist.txt&lang=bash
-
 @snap[north span-100]
 ## パッケージ一覧を表示
 
 * `pip list`
 @snapend
-
-+++?code=osc2020do/piplist-o.txt&lang=bash
 
 @snap[north span-100]
 ## 古いパッケージを確認

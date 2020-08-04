@@ -14,12 +14,18 @@
 * 開発環境の準備方法
 
 ---
+おまれは誰？
+?image=slide01-base/images/pypl2020.png&size=auto 100%
 
++++
 ## Twitter
 
- `@abenben`
+ [@abenben](https://twitter.com/abenben)
 
----?image=slide01-base/images/pypl2020.png&size=auto 100%
+---
+## Pythonの人気
+
++++?image=slide01-base/images/pypl2020.png&size=auto 100%
 
 ---
 

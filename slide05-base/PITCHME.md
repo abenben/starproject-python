@@ -21,27 +21,25 @@
 
 ---
 
-みんなのPython勉強会 #64
+### みんなのPython勉強会 #64
 
-<img src="slide05-base/images/stapy_64_1.png" height="400">
-
----
-
-<img src="slide05-base/images/stapy_64_2.png" height="400">
+<img src="slide05-base/images/stapy_64_1.png" height="500">
 
 ---
 
-VUCA Labo #007
+<img src="slide05-base/images/stapy_64_2.png" height="500">
+
+---
+
+### VUCA Labo #007
 
 https://vucalabo007.peatix.com/
 
-<img src="slide05-base/images/vucalabo_007.jpg" height="400">
+<img src="slide05-base/images/vucalabo_007.jpg" height="500">
 
 ---
 
 ### Pythonによるアルゴリズム
-
----
 
 ---
 
@@ -54,11 +52,8 @@ https://vucalabo007.peatix.com/
 * [Pythonメインサイト日本語版](https://www.python.jp/)
 * [Python言語リファレンス](https://docs.python.org/ja/3/reference/index.html)
 * [Python標準リファレンス](https://docs.python.org/ja/3/library/)
+
 ---
-
-### まとめ
-
-+++
 
 ### まとめ
 
@@ -74,8 +69,4 @@ https://vucalabo007.peatix.com/
 * [Python言語リファレンス](https://docs.python.org/ja/3/reference/index.html)
 * [Python標準リファレンス](https://docs.python.org/ja/3/library/)
 
----
-
-### 来週(10/13)はブロックチェーン
-
-+++?image=slide05-base/images/blockchain_event02.png&size=auto 100%
+---?image=slide05-base/images/blockchain_event02.png&size=auto 100%

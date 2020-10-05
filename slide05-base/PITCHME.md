@@ -35,7 +35,7 @@ VUCA Labo #007
 
 https://vucalabo007.peatix.com/
 
-<img src="slide05-base/images/vucalabo_007.png" height="400">
+<img src="slide05-base/images/vucalabo_007.jpg" height="400">
 
 ---
 

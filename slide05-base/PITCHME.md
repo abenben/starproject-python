@@ -23,19 +23,19 @@
 
 みんなのPython勉強会 #64
 
-<img src="slide05-base/images/stapy_64_1.png">
+<img src="slide05-base/images/stapy_64_1.png" height="400">
 
 ---
 
-<img src="slide05-base/images/stapy_64_2.png">
+<img src="slide05-base/images/stapy_64_2.png" height="400">
 
 ---
 
 VUCA Labo #007
 
-<img src="slide05-base/images/vucalabo_007.png">
-
 https://vucalabo007.peatix.com/
+
+<img src="slide05-base/images/vucalabo_007.png" height="400">
 
 ---
 

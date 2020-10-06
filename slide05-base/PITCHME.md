@@ -46,9 +46,9 @@ https://vucalabo007.peatix.com/
 
 ### アルゴリズムや数学に関するPython書籍
 
-<a href="index.html"><img src="/slide05-base/images/pybook3.jpg" height="80"></a>
-<a href="index.html"><img src="/slide05-base/images/pybook2.jpg" height="80"></a>
-<a href="index.html"><img src="/slide05-base/images/pybook1.jpg" height="80"></a>
+<a href="https://gihyo.jp/book/2020/978-4-297-11686-6"><img src="/slide05-base/images/pybook1.jpg" height="150"></a>
+<a href="https://www.amazon.co.jp/dp/4065178037"><img src="/slide05-base/images/pybook2.jpg" height="150"></a>　　
+<a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide05-base/images/pybook3.jpg" height="150"></a>　　
 
 ---
 
@@ -76,10 +76,11 @@ https://vucalabo007.peatix.com/
 
 ---
 
-### （参考情報）Pythonのドキュメント
+### (参考)Pythonドキュメント
 
 * [Pythonメインサイト日本語版](https://www.python.jp/)
 * [Python言語リファレンス](https://docs.python.org/ja/3/reference/index.html)
 * [Python標準リファレンス](https://docs.python.org/ja/3/library/)
 
----?image=slide05-base/images/blockchain_event02.png&size=auto 100%
+### 来週の講義
+

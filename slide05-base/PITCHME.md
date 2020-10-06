@@ -231,4 +231,4 @@ matrix([[540, 940],
 
 2020/10/13(火)
 
-<a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide05-base/images/kawamoto.jpg" height="150"></a>
+<a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide05-base/images/kawamoto.png" height="400"></a>

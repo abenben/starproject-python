@@ -24,6 +24,7 @@
 +++
 
 ### みんなのPython勉強会 #62(1/2)
+
 https://startpython.connpass.com/event/187062/
 
 <img src="/slide05-base/images/stapy_64_1.png" height="480">
@@ -87,6 +88,7 @@ https://vucalabo007.peatix.com/
 * その他
 
 ---
+
 # 数学
 
 +++
@@ -106,8 +108,8 @@ https://vucalabo007.peatix.com/
 
 ### Pythonの数学ライブラリ
 
-* mathパッケージ
-* numpy
+* [math](https://docs.python.org/ja/3/library/math.html)
+* [numpy](
 * pandas(*一部の機能として内蔵)
 * sympy
 * scipy

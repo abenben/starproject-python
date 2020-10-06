@@ -55,11 +55,55 @@ https://vucalabo007.peatix.com/
 
 ---
 
-### Pythonによるアルゴリズム
+### アルゴリズムとは何か
+
+* 計算や作業を遂行するための手順
+* 特定の料理をつくためのレシピのようなもの
+* 特定の問題を解くための手段がコンピューターとしての**アルゴリズム**
+* 「プログラム」とは、コンピューターを実行するための手続き（専用の言語）
+
++++
+
+### アルゴリズムを覚えると様々な課題が解決できる
+
+<a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide05-base/images/book1.jpg" height="350"></a>　
+<a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide05-base/images/book2.jpg" height="350"></a>
+
++++
+
+### アルゴリズムの種類
+
+* データ構造
+* ソート
+* 配列の探索
+* グラフの探索
+* セキュリティーアルゴリズム
+* クラスタリング
+* 機械学習
+* その他
 
 ---
 
-### Pythonによる数学
+### 数学の種類（高校レベル）
+
+* 数
+* 演算
+* 方程式
+* ベクトル
+* 行列
+* 集合と確率
+* 統計と乱数
+* 微分・積分
+
++++
+
+### Pythonの数学ライブラリ
+
+* mathパッケージ
+* numpy
+* pandas(*一部の機能として内蔵)
+* sympy
+* scipy
 
 ---
 
@@ -85,5 +129,8 @@ https://vucalabo007.peatix.com/
 * [Python言語リファレンス](https://docs.python.org/ja/3/reference/index.html)
 * [Python標準リファレンス](https://docs.python.org/ja/3/library/)
 
+---
+
 ### 来週の講義
+
 

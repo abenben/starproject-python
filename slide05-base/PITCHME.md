@@ -50,9 +50,9 @@ https://vucalabo007.peatix.com/
 <a href="https://gihyo.jp/book/2020/978-4-297-11686-6"><img src="/slide05-base/images/pybook1.jpg" height="150"></a>　
 <a href="https://www.amazon.co.jp/dp/4065178037"><img src="/slide05-base/images/pybook2.jpg" height="150"></a>　
 <a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide05-base/images/pybook3.jpg" height="150"></a><br>
-<a href="https://https://www.amazon.co.jp/dp/4822295915"><img src="/slide05-base/images/pybook4.jpg" height="150"></a>　
-<a href="https://https://www.amazon.co.jp/dp/4873117682"><img src="/slide05-base/images/pybook5.jpg" height="150"></a>　
-<a href="https://https://www.amazon.co.jp/dp/4797393963"><img src="/slide05-base/images/pybook6.jpg" height="150"></a>
+<a href="https://www.amazon.co.jp/dp/4822295915"><img src="/slide05-base/images/pybook4.jpg" height="150"></a>　
+<a href="https://www.amazon.co.jp/dp/4873117682"><img src="/slide05-base/images/pybook5.jpg" height="150"></a>　
+<a href="https://www.amazon.co.jp/dp/4797393963"><img src="/slide05-base/images/pybook6.jpg" height="150"></a>
 
 ---
 
@@ -71,8 +71,8 @@ https://vucalabo007.peatix.com/
 
 ### アルゴリズムを覚えると様々な課題が解決できる
 
-<a href="https://https://www.amazon.co.jp/dp/4040800044"><img src="/slide05-base/images/book2.jpg" height="350"></a>　
-<a href="https://https://www.amazon.co.jp/dp/482228493X"><img src="/slide05-base/images/book1.jpeg" height="350"></a>
+<a href="https://www.amazon.co.jp/dp/4040800044"><img src="/slide05-base/images/book2.jpg" height="350"></a>　
+<a href="https://www.amazon.co.jp/dp/482228493X"><img src="/slide05-base/images/book1.jpeg" height="350"></a>
 
 +++
 

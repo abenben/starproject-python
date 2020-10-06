@@ -245,12 +245,16 @@ Successfully installed beautifulsoup4-4.9.1
 ```
 
 @snap[north span-100]
+
++++
 ### パッケージ一覧を表示
 
 * `pip list`
 @snapend
 
 @snap[north span-100]
+
++++
 ### 古いパッケージを確認
 
 * `pip list -o`

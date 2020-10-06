@@ -16,9 +16,9 @@
 
 ### お知らせ
 
-* [Start Python Club](https://startpython.connpass.com/)
-  * 10/14（水） <br>みんなのPython勉強会 #62
-* [VUCA Labo](https://vucalabo.connpass.com/)
+* [みんなのPython勉強会 #62](https://startpython.connpass.com/)
+  * 10/14（水） <br>若手を応援！
+* [VUCA Labo #007](https://vucalabo.connpass.com/)
   * 10/21（水） <br>循環型で持続可能な地方でのデザイン
 
 +++

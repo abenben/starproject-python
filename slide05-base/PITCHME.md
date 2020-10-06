@@ -66,8 +66,8 @@ https://vucalabo007.peatix.com/
 
 ### アルゴリズムを覚えると様々な課題が解決できる
 
-<a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide05-base/images/book1.jpg" height="350"></a>　
-<a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide05-base/images/book2.jpg" height="350"></a>
+<a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide05-base/images/book2.jpg" height="350"></a>　
+<a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide05-base/images/book1.jpeg" height="350"></a>
 
 +++
 

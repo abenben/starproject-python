@@ -23,11 +23,11 @@
 
 ### みんなのPython勉強会 #64
 
-<img src="slide05-base/images/stapy_64_1.png" height="500">
+<img src="/slide05-base/images/stapy_64_1.png" height="500">
 
 ---
 
-<img src="slide05-base/images/stapy_64_2.png" height="500">
+<img src="/slide05-base/images/stapy_64_2.png" height="500">
 
 ---
 

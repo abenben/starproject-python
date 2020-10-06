@@ -323,15 +323,7 @@ Uninstalling beautifulsoup4-4.8.0:
   * VSCode: [`code.visualstudio.com`](https://code.visualstudio.com/)
   * PyCharm: [`www.jetbrains.com/pycharm`](https://www.jetbrains.com/pycharm/)
 
-+++?image=slide01-base/images/vscode.jpg&size=auto 100%
-
-+++?image=slide01-base/images/pycharm.jpg&size=auto 100%
-
 ---
-
-### まとめ
-
-+++
 
 ### まとめ
 
@@ -344,4 +336,4 @@ Uninstalling beautifulsoup4-4.8.0:
 
 ### ありがとうございました
 
-* @fab[twitter] [@abenben](https://twitter.com/abenben)
+@fab[twitter] [@abenben](https://twitter.com/abenben)

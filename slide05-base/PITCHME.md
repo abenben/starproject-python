@@ -18,6 +18,8 @@
 
 * [みんなのPython勉強会 #62](https://startpython.connpass.com/)
   * 10/14（水） <br>若手を応援！
+* [Road to SiliconValley](https://event.svjp.org/)
+  * 10/20(火) - 22（水）
 * [VUCA Labo #007](https://vucalabo.connpass.com/)
   * 10/21（水） <br>循環型で持続可能な地方でのデザイン
 
@@ -34,6 +36,12 @@ https://startpython.connpass.com/event/187062/
 ### みんなのPython勉強会 #62(2/2)
 
 <img src="/slide05-base/images/stapy_64_2.png" height="480">
+
++++
+
+### Road to SiliconValley
+
+<img src="/slide05-base/images/event3.jpg" height="480">
 
 +++
 

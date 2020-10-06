@@ -131,7 +131,7 @@ pprint.pprint(sorted(l, key=lambda x: x['Age'], reverse=True))
 
 * [math](https://docs.python.org/ja/3/library/math.html)
 * [numpy](https://numpy.org/doc/1.19/)
-* [pandas(*一部の機能として内蔵)](https://pandas.pydata.org/docs/#)
+* [pandas](https://pandas.pydata.org/docs/#)(*一部の機能として内蔵)
 * [sympy](https://docs.sympy.org/latest/index.html)
 * [scipy](https://docs.scipy.org/doc/scipy-1.5.2/reference/)
 
@@ -227,3 +227,8 @@ matrix([[540, 940],
 
 ### 来週の講義
 
+『トークンエコノミーによる循環型社会のデザイン』
+
+2020/10/13(火)
+
+<a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide05-base/images/kawamoto.jpg" height="150"></a>

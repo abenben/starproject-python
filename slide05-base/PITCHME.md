@@ -16,16 +16,21 @@
 
 ### お知らせ
 
-* [Start Python Club #63](https://startpython.connpass.com/)
-* [VUCA Labo #007](https://startpython.connpass.com/)
+* [Start Python Club](https://startpython.connpass.com/)
+  * 10/14（水） みんなのPython勉強会 #62
+* [VUCA Labo](https://vucalabo.connpass.com/)
+  * 10/21（水） 循環型で持続可能な地方でのデザイン
 
 ---
 
-### みんなのPython勉強会 #64
+### みんなのPython勉強会 #62(1/2)
+https://startpython.connpass.com/event/187062/
 
 <img src="/slide05-base/images/stapy_64_1.png" height="480">
 
 ---
+
+### みんなのPython勉強会 #62(2/2)
 
 <img src="/slide05-base/images/stapy_64_2.png" height="480">
 

@@ -41,6 +41,8 @@ https://startpython.connpass.com/event/187062/
 
 ### Road to SiliconValley
 
+https://event.svjp.org/
+
 <img src="/slide05-base/images/event3.jpg" height="480">
 
 +++

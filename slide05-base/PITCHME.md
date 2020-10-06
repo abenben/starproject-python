@@ -225,10 +225,10 @@ matrix([[540, 940],
 
 ---
 
-### 来週の講義
+### 来週のブロックチェーン講義
 
 『トークンエコノミーによる循環型社会のデザイン』
 
-2020/10/13(火)
+2020/10/13(火) 19:00〜
 
 <a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide05-base/images/kawamoto.png" height="400"></a>

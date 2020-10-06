@@ -87,6 +87,27 @@ https://vucalabo007.peatix.com/
 * 機械学習
 * その他
 
++++
+
+### 例：名前でソート
+
+``` 
+import pprint
+
+l = [{'Name': 'Alice', 'Age': 40, 'Point': 80},
+     {'Name': 'Bob', 'Age': 20},
+     {'Name': 'Charlie', 'Age': 30, 'Point': 70}]
+pprint l
+#
+#
+#
+
+pprint.pprint(sorted(l, key=lambda x: x['Age'], reverse=True))
+# [{'Age': 40, 'Name': 'Alice', 'Point': 80},
+#  {'Age': 30, 'Name': 'Charlie', 'Point': 70},
+#  {'Age': 20, 'Name': 'Bob'}]
+```
+
 ---
 
 # 数学
@@ -109,10 +130,37 @@ https://vucalabo007.peatix.com/
 ### Pythonの数学ライブラリ
 
 * [math](https://docs.python.org/ja/3/library/math.html)
-* [numpy](
-* pandas(*一部の機能として内蔵)
-* sympy
-* scipy
+* [numpy](https://numpy.org/doc/1.19/)
+* [pandas(*一部の機能として内蔵)](https://pandas.pydata.org/docs/#)
+* [sympy](https://docs.sympy.org/latest/index.html)
+* [scipy](https://docs.scipy.org/doc/scipy-1.5.2/reference/)
+
++++
+
+### 例：連立方程式を解く
+
++++
+
+### 例：行列の計算
+
+
+|名前|リンゴ|バナナ|
+|---|---|---|
+|太郎|1個|3個|
+|花子|2個|1個|
+
+|品名|コンビニ|デパート|
+|---|---|---|
+|リンゴ|150円|250円|
+|バナナ|130円|230円|
+
+```
+A = np.matrix[[1,3],[2,1]])
+B = np.matrix([[150, 250],「130,230]])
+A * B
+matrix([[540, 940],
+        [530, 730]])
+```
 
 ---
 

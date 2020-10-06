@@ -110,6 +110,7 @@ l = [{'Name': 'Suzuki', 'Age': 40, 'Point': 80},
      {'Name': 'Tanaka', 'Age': 26},
      {'Name': 'Watanabe', 'Age': 20},
      {'Name': 'Sato', 'Age': 30, 'Point': 70}]
+
 print("[ソート前]")
 pprint.pprint(l)
 # [{'Age': 40, 'Name': 'Suzuki', 'Point': 80},

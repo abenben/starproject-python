@@ -179,9 +179,6 @@ $ source env/bin/activate
 ```sh
 (env) $ deactivate
 $
-
-(env) > deactivate
->
 ```
 
 +++

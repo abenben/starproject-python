@@ -23,11 +23,11 @@
 
 ### みんなのPython勉強会 #64
 
-<img src="/slide05-base/images/stapy_64_1.png" height="500">
+<img src="/slide05-base/images/stapy_64_1.png" height="480">
 
 ---
 
-<img src="/slide05-base/images/stapy_64_2.png" height="500">
+<img src="/slide05-base/images/stapy_64_2.png" height="480">
 
 ---
 
@@ -35,7 +35,7 @@
 
 https://vucalabo007.peatix.com/
 
-<img src="slide05-base/images/vucalabo_007.jpg" height="500">
+<img src="/slide05-base/images/vucalabo_007.jpg" height="480">
 
 ---
 

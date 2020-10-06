@@ -46,9 +46,12 @@ https://vucalabo007.peatix.com/
 
 ### アルゴリズムや数学に関するPython書籍
 
-<a href="https://gihyo.jp/book/2020/978-4-297-11686-6"><img src="/slide05-base/images/pybook1.jpg" height="150"></a>
-<a href="https://www.amazon.co.jp/dp/4065178037"><img src="/slide05-base/images/pybook2.jpg" height="150"></a>　　
-<a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide05-base/images/pybook3.jpg" height="150"></a>　　
+<a href="https://gihyo.jp/book/2020/978-4-297-11686-6"><img src="/slide05-base/images/pybook1.jpg" height="150"></a>　
+<a href="https://www.amazon.co.jp/dp/4065178037"><img src="/slide05-base/images/pybook2.jpg" height="150"></a>　
+<a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide05-base/images/pybook3.jpg" height="150"></a><br>
+<a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide05-base/images/pybook4.jpg" height="150"></a>　
+<a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide05-base/images/pybook5.jpg" height="150"></a>　
+<a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide05-base/images/pybook6.jpg" height="150"></a>
 
 ---
 

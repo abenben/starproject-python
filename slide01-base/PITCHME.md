@@ -1,4 +1,4 @@
-## Pythonの基本知識
+### Pythonの基本知識
 
 2020年8月4日 / STAR Project
 
@@ -8,7 +8,7 @@
 
 ---
 
-## アジェンダ
+### アジェンダ
 
 * Pythonコミュニティについて
 * Pythonについて
@@ -19,13 +19,13 @@
 ![alt](slide01-base/images/abenben.jpg)
 
 +++
-## Twitter
+### Twitter
 
  [@abenben](https://twitter.com/abenben)
 
 ---
 
-## Pythonコミュニティ
+### Pythonコミュニティ
 
 * [PyCon JP](https://pyconjp.connpass.com/event/181288/)
 * [Start Python Club](https://startpython.connpass.com/)
@@ -34,7 +34,7 @@
 
 +++
 
-## 技術コミュニティのメリット
+### 技術コミュニティのメリット
 
 * 触れたことのない技術を知る機会が増える
 * 一緒に勉強する仲間を作れる
@@ -42,13 +42,13 @@
 
 ---
 
-## Pythonの人気
+### Pythonの人気
 
 +++?image=slide01-base/images/pypl2020.png&size=auto 100%
 
 ---
 
-## Pythonの特徴
+### Pythonの特徴
 
 * 文法がシンプルで可読性が高い
 * コンパイルが不要
@@ -60,7 +60,7 @@
 
 ---
 
-## Pythonのドキュメント
+### Pythonのドキュメント
 
 * [Pythonメインサイト日本語版](https://www.python.jp/)
 * [Python言語リファレンス](https://docs.python.org/ja/3/reference/index.html)
@@ -68,7 +68,7 @@
 
 ---
 
-## Google Colaboratory
+### Google Colaboratory
 
 * 学生、データ サイエンティスト、AI リサーチャーの皆さんの作業を効率化するツール。
 * 今回の講義のような、学習ツールには最適な環境（個別に環境を準備しなくても済む）
@@ -76,13 +76,13 @@
 
 ---
 
-## Python開発環境の整え方
+### Python開発環境の整え方
 
 * Pythonの環境について
 
 +++
 
-## Pythonインストール
+### Pythonインストール
 
 * [`www.python.org/downloads`](https://www.python.org/downloads/)から公式版をインストール
   * WindowsはPATH設定のチェックを忘れずに
@@ -91,13 +91,13 @@
 
 +++
 
-## 環境構築ガイド
+### 環境構築ガイド
 
 * [`www.python.jp/install/install`](https://www.python.jp/install/install.html)
 
 +++
 
-## 他の手段
+### 他の手段
 
 * Anaconda: [`www.anaconda.com`](https://www.anaconda.com/)
 * pyenv: [`github.com/pyenv/pyenv`](https://github.com/pyenv/pyenv)
@@ -107,17 +107,17 @@
   
 +++
 
-## Pythonインストール
+### Pythonインストール
 
 * 特に理由がなければ公式版を使おう
 
 ---
 
-## 仮想環境(venv)
+### 仮想環境(venv)
 
 +++
 
-## 仮想環境(venv)
+### 仮想環境(venv)
 
 * [`docs.python.org/ja/3/library/venv`](https://docs.python.org/ja/3/library/venv.html)
 * Pythonに標準でついてくる
@@ -126,7 +126,7 @@
 
 +++
 
-## venvの概念
+### venvの概念
 
 * システムのPython
   * venv1
@@ -136,7 +136,7 @@
 
 +++
 
-## venv作成、有効化
+### venv作成、有効化
 
 * macOS、Linux
   * `python3.8 -m venv 環境名`
@@ -150,7 +150,7 @@ $ source env/bin/activate
 
 +++
 
-## venv作成、有効化
+### venv作成、有効化
 
 * Windows
   * `py -3.8 -m venv 環境名`
@@ -165,14 +165,14 @@ $ source env/bin/activate
 
 +++
 
-## venvとは
+### venvとは
 
 * パスを書き換えているだけ
 * 削除するときはフォルダーごと削除
 
 +++
 
-## venv無効化
+### venv無効化
 
 * `deactivate`
 
@@ -183,17 +183,17 @@ $
 
 +++
 
-## 仮想環境(venv)
+### 仮想環境(venv)
 
 * パッケージをインストールするときは常に使おう
 
 ---
 
-## パッケージ管理(pip)
+### パッケージ管理(pip)
 
 +++
 
-## パッケージ管理(pip)
+### パッケージ管理(pip)
 
 * [`pip.pypa.io`](https://pip.pypa.io/en/stable/)
 * サードパーティ製パッケージの管理ツール
@@ -201,7 +201,7 @@ $
 
 +++
 
-## PyPI
+### PyPI
 
 * [`pypi.org`](https://pypi.org/)
 * サードパーティー製パッケージの配布サイト
@@ -209,7 +209,7 @@ $
 
 +++
 
-## pipでインストール
+### pipでインストール
 
 * `pip install パッケージ名`
 * 依存パッケージもまとめてインストール
@@ -227,7 +227,7 @@ Successfully installed beautifulsoup4-4.9.1 soupsieve-2.0.1
 
 +++
 
-## pipでインストール
+### pipでインストール
 
 * バージョン指定
   * `pip install パッケージ名==バージョン`
@@ -245,20 +245,20 @@ Successfully installed beautifulsoup4-4.9.1
 ```
 
 @snap[north span-100]
-## パッケージ一覧を表示
+### パッケージ一覧を表示
 
 * `pip list`
 @snapend
 
 @snap[north span-100]
-## 古いパッケージを確認
+### 古いパッケージを確認
 
 * `pip list -o`
 @snapend
 
 +++
 
-## パッケージ一覧を再利用
+### パッケージ一覧を再利用
 
 * `pip freeze > requirements.txt`
 * requirements.txtファイルをバージョン管理
@@ -284,7 +284,7 @@ soupsieve==2.0.1
 
 +++
 
-## アンインストール
+### アンインストール
 
 * `pip uninstall -y パッケージ名`
 * 依存パッケージは削除されない
@@ -298,23 +298,23 @@ Uninstalling beautifulsoup4-4.8.0:
 
 +++
 
-## パッケージの探し方
+### パッケージの探し方
 
 * Awesome Python: [`awesome-python.com`](https://awesome-python.com/)
 
 +++
 
-## パッケージ管理(pip)
+### パッケージ管理(pip)
 
 * pipコマンドを使いこなそう
 
 ---
 
-## テキストエディター
+### テキストエディター
 
 +++
 
-## テキストエディター
+### テキストエディター
 
 * 好きな物を使いましょう
   * シンタックスハイライト
@@ -329,11 +329,11 @@ Uninstalling beautifulsoup4-4.8.0:
 
 ---
 
-## まとめ
+### まとめ
 
 +++
 
-## まとめ
+### まとめ
 
 * Python公式版
 * venvで仮想環境
@@ -342,6 +342,6 @@ Uninstalling beautifulsoup4-4.8.0:
 
 ---
 
-## ありがとうございました
+### ありがとうございました
 
 * @fab[twitter] [@abenben](https://twitter.com/abenben)

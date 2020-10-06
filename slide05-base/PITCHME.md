@@ -21,26 +21,34 @@
 * [VUCA Labo](https://vucalabo.connpass.com/)
   * 10/21（水） 循環型で持続可能な地方でのデザイン
 
----
++++
 
 ### みんなのPython勉強会 #62(1/2)
 https://startpython.connpass.com/event/187062/
 
 <img src="/slide05-base/images/stapy_64_1.png" height="480">
 
----
++++
 
 ### みんなのPython勉強会 #62(2/2)
 
 <img src="/slide05-base/images/stapy_64_2.png" height="480">
 
----
++++
 
 ### VUCA Labo #007
 
 https://vucalabo007.peatix.com/
 
 <img src="/slide05-base/images/vucalabo_007.jpg" height="480">
+
+---
+
+### アルゴリズムや数学に関するPython書籍
+
+<a href="index.html"><img src="/slide05-base/images/pybook3.jpg" height="80"></a>
+<a href="index.html"><img src="/slide05-base/images/pybook2.jpg" height="80"></a>
+<a href="index.html"><img src="/slide05-base/images/pybook1.jpg" height="80"></a>
 
 ---
 

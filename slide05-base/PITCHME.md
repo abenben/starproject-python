@@ -91,21 +91,26 @@ https://vucalabo007.peatix.com/
 
 ### 例：名前でソート
 
-``` 
+```python
 import pprint
 
-l = [{'Name': 'Alice', 'Age': 40, 'Point': 80},
-     {'Name': 'Bob', 'Age': 20},
-     {'Name': 'Charlie', 'Age': 30, 'Point': 70}]
-pprint l
-#
-#
-#
+l = [{'Name': 'Suzuki', 'Age': 40, 'Point': 80},
+     {'Name': 'Tanaka', 'Age': 26},
+     {'Name': 'Watanabe', 'Age': 20},
+     {'Name': 'Sato', 'Age': 30, 'Point': 70}]
+print("[ソート前]")
+pprint.pprint(l)
+# [{'Age': 40, 'Name': 'Suzuki', 'Point': 80},
+# {'Age': 26, 'Name': 'Tanaka'},
+# {'Age': 20, 'Name': 'Watanabe'},
+# {'Age': 30, 'Name': 'Sato', 'Point': 70}]
 
+print("[ソート後]")
 pprint.pprint(sorted(l, key=lambda x: x['Age'], reverse=True))
-# [{'Age': 40, 'Name': 'Alice', 'Point': 80},
-#  {'Age': 30, 'Name': 'Charlie', 'Point': 70},
-#  {'Age': 20, 'Name': 'Bob'}]
+# [{'Age': 40, 'Name': 'Suzuki', 'Point': 80},
+# {'Age': 30, 'Name': 'Sato', 'Point': 70},
+# {'Age': 26, 'Name': 'Tanaka'},
+# {'Age': 20, 'Name': 'Watanabe'}]
 ```
 
 ---
@@ -143,16 +148,16 @@ a + b = 1　・・・①<br>
 5a + b = 3　・・・②<br>
 aとbの解は？<br>
 
-```
+```python
 from sympy import Symbol, solve
 
 a = Symbol('a')
-a = Symbol('b')
+b = Symbol('b')
 ex1 = a + b - 1
 ex2 = 5*a + b - 3
 
-print(solve(ex1,ex2))
-
+print(solve((ex1,ex2)))
+# {a: 1/2, b: 1/2}
 ```
 
 +++
@@ -191,12 +196,13 @@ print(solve(ex1,ex2))
 |太郎|540円|940円|
 |花子|430円|730円|
 
-```
-A = np.matrix[[1,3],[2,1]])
-B = np.matrix([[150, 250],「130,230]])
+```python
+import numpy as np
+A = np.matrix([[1,3],[2,1]])
+B = np.matrix([[150,250],[130,230]])
 A * B
-matrix([[540, 940],
-        [530, 730]])
+#matrix([[540, 940],
+#        [430, 730]])
 ```
 
 ---

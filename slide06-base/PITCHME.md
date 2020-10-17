@@ -56,13 +56,14 @@ https://startpython.connpass.com/event/192677
 
 ### データ処理に関するPython書籍
 
+<a href="https://www.shoeisha.co.jp/book/detail/9784798158341"><img src="/slide06-base/images/pandas8.jpg" height="150"></a>　
+<a href="https://www.oreilly.co.jp/books/9784873118451/"><img src="/slide06-base/images/pandas4.jpg" height="150"></a>　
+<a href="https://gihyo.jp/book/2020/978-4-297-11568-5"><img src="/slide06-base/images/pandas7.jpg" height="150"></a>　
+<a href="https://www.amazon.co.jp/dp/4065178037"><img src="/slide06-base/images/pandas2.jpg" height="150"></a><br>　
+<a href="https://www.shoeisha.co.jp/book/detail/9784798160672"><img src="/slide06-base/images/pandas5.jpg" height="150"></a>　
+<a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide06-base/images/pandas3.jpg" height="150"></a>　
 <a href="https://gihyo.jp/book/2020/978-4-297-11686-6"><img src="/slide06-base/images/pandas1.jpg" height="150"></a>　
-<a href="https://www.amazon.co.jp/dp/4065178037"><img src="/slide06-base/images/pandas2.jpg" height="150"></a>　
-<a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide06-base/images/pandas3.jpg" height="150"></a><br>
-<a href="https://www.amazon.co.jp/dp/4822295915"><img src="/slide06-base/images/pandas4.jpg" height="150"></a>　
-<a href="https://www.amazon.co.jp/dp/4873117682"><img src="/slide06-base/images/pandas5.jpg" height="150"></a>　
-<a href="https://www.amazon.co.jp/dp/4797393963"><img src="/slide06-base/images/pandas6.jpg" height="150"></a>
-<a href="https://www.amazon.co.jp/dp/4797393963"><img src="/slide06-base/images/pandas7.jpg" height="150"></a>
+<a href="http://www.asakura.co.jp/books/isbn/978-4-254-12242-8/"><img src="/slide06-base/images/pandas6.jpg" height="150"></a>
 
 ---
 

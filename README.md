@@ -8,6 +8,7 @@
 
 * [pythonの基本知識](https://gitpitch.com/abenben/starproject-python/master?p=slide01-base)
 * [第5回 講義スライド（10/5）](https://gitpitch.com/abenben/starproject-python/master?p=slide05-base)
+* [第6回 講義スライド（10/20）](https://gitpitch.com/abenben/starproject-python/master?p=slide06-base)
 
 ## 3.チュートリアル
 

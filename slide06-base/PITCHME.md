@@ -120,6 +120,9 @@ dtype: int64
 正確には、
 シリーズはインデックス付けされた複数のデータ型（int、str、float等）を持つことが可能な1次元配列のオブジェクトです。
 
+<img src="/slide06-base/images/series.png" height="480">
+
+
 +++
 
 ## シリーズ：生成編

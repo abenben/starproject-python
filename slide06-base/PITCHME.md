@@ -1,0 +1,123 @@
+### Pythonによるデータ処理
+
+2020年10月20日[Tue] / STAR Project
+
+阿部一也
+
+---
+
+### アジェンダ
+
+* お知らせ
+* アルゴリズムについて
+* 数学について
+
+---
+
+### お知らせ
+
+* [Road to SiliconValley](https://event.svjp.org/)
+  * 10/20(火) - 22（水）
+* [VUCA Labo #007](https://vucalabo.connpass.com/)
+  * 10/21（水） <br>循環型で持続可能な地方でのデザイン
+* [みんなのPython勉強会 #62](https://startpython.connpass.com/)
+  * 11/12（水） <br>（テーマ調整中）
++++
+
+### Road to SiliconValley
+
+https://event.svjp.org/
+
+<img src="/slide05-base/images/event3.jpg" height="480">
+
++++
+
+### VUCA Labo #007
+
+https://vucalabo007.peatix.com/
+
+<img src="/slide05-base/images/vucalabo_007.jpg" height="480">
+
++++
+
+### みんなのPython勉強会 #63
+
+https://startpython.connpass.com/event/192677
+
+---
+
+### データ処理に関するPython書籍
+
+<a href="https://gihyo.jp/book/2020/978-4-297-11686-6"><img src="/slide05-base/images/pybook1.jpg" height="150"></a>　
+<a href="https://www.amazon.co.jp/dp/4065178037"><img src="/slide05-base/images/pybook2.jpg" height="150"></a>　
+<a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide05-base/images/pybook3.jpg" height="150"></a><br>
+<a href="https://www.amazon.co.jp/dp/4822295915"><img src="/slide05-base/images/pybook4.jpg" height="150"></a>　
+<a href="https://www.amazon.co.jp/dp/4873117682"><img src="/slide05-base/images/pybook5.jpg" height="150"></a>　
+<a href="https://www.amazon.co.jp/dp/4797393963"><img src="/slide05-base/images/pybook6.jpg" height="150"></a>
+
+---
+
+# データ処理
+
++++
+
+### xxx
+
+* xxx
+* xxx
+* xxx
+
++++
+
+### シリーズ
+
+* xxx
+* xxx
+* xxx
+
++++
+
+### データフレーム
+
+*xxx
+* xxx
+* xxx
+
++++
+
+### ソート
+
+例：名前でソート
+
+```python
+import pprint
+print("[ソート前]")
+# [{'Age': 40, 'Name': 'Suzuki', 'Point': 80},
+# {'Age': 26, 'Name': 'Tanaka'},
+```
+
+---
+
+### まとめ
+
+* xxx
+* xxx
+* xxx
+
+---
+
+### (参考)Pythonドキュメント
+
+* [Pythonメインサイト日本語版](https://www.python.jp/)
+* [Python言語リファレンス](https://docs.python.org/ja/3/reference/index.html)
+* [Python標準リファレンス](https://docs.python.org/ja/3/library/)
+
+---
+
+### 次回のPython講義
+
+『トークンエコノミーによる循環型社会のデザイン』
+
+2020/11/13(火) 19:00〜
+
+<a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide05-base/images/kawamoto.png" height="400"></a>

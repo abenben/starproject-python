@@ -8,9 +8,17 @@
 
 ### アジェンダ
 
+* 特別講演
 * お知らせ
-* アルゴリズムについて
-* 数学について
+* Pythonによるデータ処理
+* まとめ
+* 連絡事項
+
+---
+
+### 特別講演
+
+* 寺田学さん
 
 ---
 
@@ -69,6 +77,14 @@ https://startpython.connpass.com/event/192677
 
 +++
 
+### xxx
+
+* xxx
+* xxx
+* xxx
+
+---
+
 ### シリーズ
 
 * xxx
@@ -76,6 +92,14 @@ https://startpython.connpass.com/event/192677
 * xxx
 
 +++
+
+### xxx
+
+* xxx
+* xxx
+* xxx
+
+---
 
 ### データフレーム
 
@@ -85,7 +109,7 @@ https://startpython.connpass.com/event/192677
 
 +++
 
-### ソート
+### xxx
 
 例：名前でソート
 
@@ -111,13 +135,17 @@ print("[ソート前]")
 * [Pythonメインサイト日本語版](https://www.python.jp/)
 * [Python言語リファレンス](https://docs.python.org/ja/3/reference/index.html)
 * [Python標準リファレンス](https://docs.python.org/ja/3/library/)
+* [numpyリファレンス](https://numpy.org/doc/stable/reference/)
+* [pandasリファレンス](https://pandas.pydata.org/docs/reference/index.html)
 
 ---
 
 ### 次回のPython講義
 
-『トークンエコノミーによる循環型社会のデザイン』
+『データベース操作』
 
-2020/11/13(火) 19:00〜
+2020/11/10(火) 19:00〜
 
-<a href="https://www.amazon.co.jp/dp/4297100495"><img src="/slide05-base/images/kawamoto.png" height="400"></a>
+---
+
+### コアメンバーからのお知らせ

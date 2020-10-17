@@ -112,11 +112,68 @@ dtype: int64
 
 +++
 
-### xxx
+正確には、
+シリーズはインデックス付けされた複数のデータ型（int、str、float等）を持つことが可能な1次元配列のオブジェクトです。
 
-* xxx
-* xxx
-* xxx
++++
+
+### シリーズ：リストから生成
+
+```python
+>>> height = [170,172,165,180,174]
+>>> ser = pd.Series(height)
+>>> ser
+0 170
+1 172
+2 165
+3 180
+4 174
+dtype: int64
+```
+
++++
+
+### シリーズ：Numpyから生成
+
+```python
+>>> import numpy as np
+>>> height = np.array([170,172,165,180,174])
+>>> ser = pd.Series(height)
+>>> ser
+0 170
+1 172
+2 165
+3 180
+4 174
+dtype: int64
+```
+
++++
+
+### シリーズ：インデックスにラベルを付けながら生成
+
+```python
+>>> name = ['sato','suzuki','tanaka','kato','watanabe']
+>>> height = [170,172,165,180,174]
+>>> ser = pd.Series(height,index=name)
+>>> ser
+sato 170
+suzuki 172
+tanaka 165
+kato 180
+watanabe 174
+dtype: int64
+```
+
+
++++
+
+### シリーズ：インデックス情報を取得
+
+```python
+>>> print(ser.index)
+Index(['sato','suzuki','tanaka','kato','watanabe'],dtype: 'object')
+```
 
 ---
 

@@ -80,6 +80,11 @@ NumPyは科学技術計算に特化したサードパーティ製パッケージ
 
 * 配列用の型であるndarray
 * 行列用の型であるmatrix
+* Numpyを利用する方法。
+
+```python
+>>> import numpy as np
+```
 
 +++
 

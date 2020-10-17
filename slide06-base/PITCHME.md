@@ -69,23 +69,46 @@ https://startpython.connpass.com/event/192677
 
 # データ処理
 
-* xxx
-* xxx
-* xxx
+* Numpy
+* pandas（今日の講義はこちら）
 
 +++
 
-### pandas
+### Numpy
+
+NumPyは科学技術計算に特化したサードパーティ製パッケージ
+
+* 配列用の型であるndarray
+* 行列用の型であるmatrix
+
++++
+
+# pandas
 
 pandasはPythonでのデータ分析のツールとして最も活用されており、データの入手や加工など多くのデータ処理に使われています。
 
-* NumPyを基盤にシリーズ（Seri es）とデータフレーム（DataFrame）というデータ型を提供。
+* NumPyを基盤にシリーズ（Series）とデータフレーム（DataFrame）というデータ型を提供。
 * pandasを利用する方法。
 
 ```python
-import pandas as pd
+>>> import pandas as pd
 ```
 
+---
+
+### シリーズ（Series）
+
+Seriesは1次元データです。
+
+```python
+>>> ser = pd.Series([10, 20, 30, 40])
+>>> ser
+0 10
+1 20
+2 30
+3 40
+dtype: int64
+```
 
 +++
 
@@ -97,27 +120,24 @@ import pandas as pd
 
 ---
 
-### シリーズ
+### データフレーム（DataFrame）
 
-* xxx
-* xxx
-* xxx
+DataFrameは2次元のデータです。
 
-+++
+```python
+>>> df = pd.DataFrame([[10, "a", True],
+>>> [20, "b", False,],
+>>> [30, "c", False],
+>>> [40, "d", True]])
+>>> df
+```
 
-### xxx
-
-* xxx
-* xxx
-* xxx
-
----
-
-### データフレーム
-
-*xxx
-* xxx
-* xxx
+|0| 1| 2|
+|---|---|---|
+|0 |10 |a |True
+|1 |20 |b |False
+|2 |30 |c |False
+|3 |40 |d |True
 
 +++
 

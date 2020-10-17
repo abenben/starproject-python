@@ -74,7 +74,7 @@ https://startpython.connpass.com/event/192677
 
 +++
 
-### Numpy
+# Numpy
 
 NumPyは科学技術計算に特化したサードパーティ製パッケージ
 
@@ -96,7 +96,7 @@ pandasはPythonでのデータ分析のツールとして最も活用されて�
 
 ---
 
-### シリーズ（Series）
+# シリーズ（Series）
 
 Seriesは1次元データです。
 
@@ -117,12 +117,14 @@ dtype: int64
 
 +++
 
-### シリーズ：リストから生成
+# シリーズ：生成編
+
+リストから生成
 
 ```python
 >>> height = [170,172,165,180,174]
 >>> ser = pd.Series(height)
->>> ser
+>>> print(ser)
 0 170
 1 172
 2 165
@@ -133,13 +135,15 @@ dtype: int64
 
 +++
 
-### シリーズ：Numpyから生成
+# シリーズ：生成編
+
+Numpyから生成
 
 ```python
 >>> import numpy as np
 >>> height = np.array([170,172,165,180,174])
 >>> ser = pd.Series(height)
->>> ser
+>>> print(ser)
 0 170
 1 172
 2 165
@@ -150,13 +154,15 @@ dtype: int64
 
 +++
 
-### シリーズ：インデックスにラベルを付けながら生成
+# シリーズ：生成編
+
+インデックスにラベルを付けながら生成
 
 ```python
 >>> name = ['sato','suzuki','tanaka','kato','watanabe']
 >>> height = [170,172,165,180,174]
 >>> ser = pd.Series(height,index=name)
->>> ser
+>>> print(ser)
 sato 170
 suzuki 172
 tanaka 165
@@ -165,14 +171,33 @@ watanabe 174
 dtype: int64
 ```
 
-
 +++
 
-### シリーズ：インデックス情報を取得
+# シリーズ：生成編
+
+インデックス情報を取得
 
 ```python
 >>> print(ser.index)
 Index(['sato','suzuki','tanaka','kato','watanabe'],dtype: 'object')
+```
+
++++
+
+# シリーズ：生成編
+
+ディクショナリから生成
+
+```python
+>>> dic {'sato':170,'suzuki']172,'tanaka':165,'kato':180,'watanabe':174}
+>>> ser = pd.Series(dic)
+>>> print(ser)
+sato 170
+suzuki 172
+tanaka 165
+kato 180
+watanabe 174
+dtype: int64
 ```
 
 ---
@@ -200,13 +225,10 @@ DataFrameは2次元のデータです。
 
 ### xxx
 
-例：名前でソート
+xxx
 
 ```python
-import pprint
-print("[ソート前]")
-# [{'Age': 40, 'Name': 'Suzuki', 'Point': 80},
-# {'Age': 26, 'Name': 'Tanaka'},
+>>>
 ```
 
 ---

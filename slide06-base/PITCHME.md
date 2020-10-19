@@ -493,7 +493,7 @@ dtype: float64
 
 ---
 
-## データフレーム（DataFrame）：生成編1
+### データフレーム（DataFrame）：生成編1
 
 DataFrameは2次元のデータです。
 
@@ -555,9 +555,9 @@ pandasのシリーズから生成
 
 ### まとめ
 
-* xxx
-* xxx
-* xxx
+* データ処理にはNumpyやpandasを使う
+* pandasのシリーズはの一次元のデータが扱える
+* pandasのデータフレームは2次元のデータが扱える
 
 ---
 

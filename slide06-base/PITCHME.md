@@ -493,9 +493,10 @@ dtype: float64
 
 ---
 
-### データフレーム（DataFrame）：生成編1
+### データフレーム：生成編1
 
-DataFrameは2次元のデータです。
+データフレーム（DataFrame）は
+2次元のデータが扱えます。
 
 ```python
 >>> df = pd.DataFrame([[10, "a", True],

@@ -16,9 +16,16 @@
 
 ---
 
-### 特別講演
+### 特別講演（寺田学さん）
 
-* 寺田学さん
+* 一般社団法人PyCon JP Association 代表理事
+* 一般社団法人Pythonエンジニア育成推進協会 顧問理事
+* Plone Foundation Ambassador
+* PSF(Python Software Foundation) Fellow member 2019Q3 & Contributing members
+* 株式会社CMSコミュニケーションズ 代表取締役
+* 国立大学法人一橋大学　社会学研究科地球社会研究専攻　元客員准教授
+* 1970年生まれ。2005年にPython製WebサーバZope/Python製CMS Ploneに特化したCMSコミュニケーションズを起業。国内でも早い段階からPythonでのシステム開発を手掛けており、Ploneのコアコミッターとしても活躍。2010年にアジアで初めて開催されたPyCon APAC 2010 シンガポールに参加し翌年には日本でPyCon JPを立ち上げ、現在は一般社団法人PyCon JP Association代表理事を務める。機械学習図鑑(翔泳社: 2019年4月)などPython著書・監修も多数手掛けている。最近はPythonをはじめとした技術話題を気軽に発信するPodcast「terapyon channel」（https://podcast.terapyon.net/）を配信中。
+* Twitter: @terapyon
 
 ---
 
@@ -192,7 +199,7 @@ Index(['sato','suzuki','tanaka','kato','watanabe'],dtype: 'object')
 
 +++
 
-### シリーズ：生成編
+## シリーズ：生成編
 
 ディクショナリから生成
 
@@ -210,7 +217,7 @@ dtype: int64
 
 ---
 
-### データフレーム（DataFrame）
+## データフレーム（DataFrame）
 
 DataFrameは2次元のデータです。
 

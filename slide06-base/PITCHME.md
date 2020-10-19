@@ -24,6 +24,11 @@
 * PSF(Python Software Foundation) Fellow member 2019Q3 & Contributing members
 * 株式会社CMSコミュニケーションズ 代表取締役
 * 国立大学法人一橋大学　社会学研究科地球社会研究専攻　元客員准教授
+
++++
+
+### 特別講演（寺田学さん）プロフィール
+
 * 1970年生まれ。2005年にPython製WebサーバZope/Python製CMS Ploneに特化したCMSコミュニケーションズを起業。国内でも早い段階からPythonでのシステム開発を手掛けており、Ploneのコアコミッターとしても活躍。2010年にアジアで初めて開催されたPyCon APAC 2010 シンガポールに参加し翌年には日本でPyCon JPを立ち上げ、現在は一般社団法人PyCon JP Association代表理事を務める。機械学習図鑑(翔泳社: 2019年4月)などPython著書・監修も多数手掛けている。最近はPythonをはじめとした技術話題を気軽に発信するPodcast「terapyon channel」（https://podcast.terapyon.net/）を配信中。
 * Twitter: @terapyon
 
@@ -37,6 +42,7 @@
   * 10/21（水） <br>循環型で持続可能な地方でのデザイン
 * [みんなのPython勉強会 #62](https://startpython.connpass.com/)
   * 11/12（水） <br>（テーマ調整中）
+
 +++
 
 ### Road to SiliconValley
@@ -108,13 +114,13 @@ pandasはPythonでのデータ分析のツールとして最も活用されて�
 
 ---
 
-## シリーズ（Series）
+## シリーズ（Series）：生成編1
 
 Seriesは1次元データです。
 
 ```python
 >>> ser = pd.Series([10, 20, 30, 40])
->>> ser
+>>> print(ser)
 0 10
 1 20
 2 30
@@ -132,7 +138,7 @@ dtype: int64
 
 +++
 
-## シリーズ：生成編
+## シリーズ：生成編2
 
 リストから生成
 
@@ -150,7 +156,7 @@ dtype: int64
 
 +++
 
-## シリーズ：生成編
+## シリーズ：生成編3
 
 Numpyから生成
 
@@ -169,7 +175,7 @@ dtype: int64
 
 +++
 
-## シリーズ：生成編
+## シリーズ：生成編4
 
 インデックスにラベルを付けながら生成
 
@@ -188,7 +194,7 @@ dtype: int64
 
 +++
 
-## シリーズ：生成編
+## シリーズ：生成編4-1
 
 インデックス情報を取得
 
@@ -199,23 +205,121 @@ Index(['sato','suzuki','tanaka','kato','watanabe'],dtype: 'object')
 
 +++
 
-## シリーズ：生成編
+## シリーズ：生成編5
 
 ディクショナリから生成
 
 ```python
->>> dic {'sato':170,'suzuki']172,'tanaka':165,'kato':180,'watanabe':174}
+>>> dic = { 'sato':170, 'suzuki':172, 'tanaka':165, 'kato':180, 'watanabe':174 }
 >>> ser = pd.Series(dic)
 >>> print(ser)
-sato 170
-suzuki 172
-tanaka 165
-kato 180
-watanabe 174
+sato        170
+suzuki      172
+tanaka      165
+kato        180
+watanabe    174
+dtype: int64
+```
+
++++
+
+## シリーズ：データの参照1
+
+インデックス指定によるデータ参照
+
+```python
+>>> ser['tanaka']
+165
+```
+
++++
+
+## シリーズ：データの参照2
+
+インデックスをスライスで指定してデータ参照
+
+```python
+>>> ser['suzuki':'kato']
+suzuki    172
+tanaka    165
+kato      180
+dtype: int64
+```
+
++++
+
+## シリーズ：データの参照3
+
+インデックスや位置インデックスを指定したデータ参照
+
+```python
+>>> print(ser['tanaka'])
+>>> print(ser.iloc[2])
+165
+165
+```
+
++++
+
+## シリーズ：データの参照4
+
+条件を指定してデータ参照
+
+```python
+>>> ser[ser > 170]
+suzuki      172
+kato        180
+watanabe    174
 dtype: int64
 ```
 
 ---
+
++++
+
+## シリーズ：演算1
+
+演算（乗算*）
+
+```python
+>>> print("*** 乗算 ***")
+>>> print(ser * 2)
+>>> print("*** 元データは変わっていない ***")
+>>> print(ser)
+*** 乗算 ***
+sato        340
+suzuki      344
+tanaka      330
+kato        360
+watanabe    348
+dtype: int64
+*** 元データは変わっていない ***
+sato        170
+suzuki      172
+tanaka      165
+kato        180
+watanabe    174
+dtype: int64```
++++
+
+## シリーズ：演算2
+
+加算追加
+
+```python
+>>> ser *= 2
+>>> print(ser)
+乗算追加
+sato        340
+suzuki      344
+tanaka      330
+kato        360
+watanabe    348
+dtype: int64
+```
+
+---
+
 
 ## データフレーム（DataFrame）
 

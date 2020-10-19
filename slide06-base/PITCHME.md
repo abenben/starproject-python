@@ -41,7 +41,9 @@ Ploneのコアコミッターとしても活躍。
 翌年には日本でPyCon JPを立ち上げ、
 現在は一般社団法人PyCon JP Association代表理事を務める。
 * 機械学習図鑑(翔泳社: 2019年4月)などPython著書・監修も多数手掛けている。
-* 最近はPythonをはじめとした技術話題を気軽に発信するPodcast「terapyon channel」（https://podcast.terapyon.net/）を配信中。
+* 最近はPythonをはじめとした技術話題を気軽に発信する
+ Podcast「terapyon channel」を配信中。
+ https://podcast.terapyon.net/
 * Twitter: @terapyon
 ```
 

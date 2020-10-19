@@ -152,7 +152,6 @@ dtype: int64
 
 <img src="/slide06-base/images/series.png" height="480">
 
-
 +++
 
 ### シリーズ：生成編2
@@ -511,6 +510,12 @@ dtype: float64
 |1 |20 |b |False
 |2 |30 |c |False
 |3 |40 |d |True
+
++++
+
+行と列はそれぞれ異なるラベルを持つ。数値や文字列など異なるデータ型を指定することも可能。
+
+<img src="/slide06-base/images/dataframe.png" height="480">
 
 +++
 

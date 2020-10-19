@@ -333,10 +333,165 @@ watanabe    348
 dtype: int64
 ```
 
++++
+
+### シリーズ：要素の追加(1/2)
+
+前準備
+要素前の元データの準備
+
+```python
+>>> #初期データの準備
+>>> dic = { 'abe':70, 'inoue':65, 'ueda':76 }
+>>> ser = pd.Series(dic)
+>>> print(ser)
+abe      70
+inoue    65
+ueda     76
+dtype: int64
+```
+
++++
+
+### シリーズ：要素の追加(1/2)
+
+要素を追加する
+※注意：元データには反映されない
+
+```python
+>>> ser2=pd.Series([79,52],index=['endo','okada'])
+>>> print(ser.append(ser2))
+abe      70
+inoue    65
+ueda     76
+endo     79
+okada    52
+dtype: int64
+```
+
++++
+
+### シリーズ：要素の変更
+
+要素を追加する
+※注意：元データが変わる
+
+```python
+>>> ser *= 2
+>>> print(ser)
+乗算追加
+sato        340
+suzuki      344
+tanaka      330
+kato        360
+watanabe    348
+dtype: int64
+```
+
++++
+
+### シリーズ：要素の削除
+※注意：元データが変わる
+
+```python
+>>> del ser['abe']
+>>> ser
+noue    65
+ueda     76
+dtype: int64
+```
+
++++
+
+### シリーズ：重複データの削除(1/2)
+
+前準備
+要素前の元データの準備
+
+```python
+>>> # （このまま実行：初期データの準備）
+>>> dic = { 'A':1, 'B':2, 'C':3, 'D':1, 'E':5 }
+>>> ser = pd.Series(dic)
+>>> ser
+A    1
+B    2
+C    3
+D    1
+E    5
+dtype: int64
+```
+
++++
+
+### シリーズ：重複データの削除(2/2)
+
+```python
+>>> ser.drop_duplicates(keep='first')
+A    1
+B    2
+C    3
+E    5
+dtype: int64
+```
+
++++
+
+### シリーズ：欠損データの削除(1/2)
+
+前準備
+要素前の元データの準備
+
+```python
+>>> # （このまま実行：初期データの準備）
+>>> dic = { 'A':1, 'B':np.nan, 'C':3, 'D':4, 'E':5 }
+>>> ser = pd.Series(dic)
+>>> ser
+A    1.0
+B    NaN
+C    3.0
+D    4.0
+E    5.0
+dtype: float64
+```
+
++++
+
+### シリーズ：欠損データの削除(2/2)
+
+```python
+>>> ser.dropna()
+A    1.0
+C    3.0
+D    4.0
+E    5.0
+dtype: float64
+```
+
++++
+
+### シリーズ：統計量
+
+前準備
+要素前の元データの準備
+
+```python
+>>> dic = { 'sato':170, 'suzuki':172, 'tanaka':165, 'kato':180, 'watanabe':174 }
+>>> ser = pd.Series(dic)
+>>> ser.describe()
+count      5.000000
+mean     172.200000
+std        5.495453
+min      165.000000
+25%      170.000000
+50%      172.000000
+75%      174.000000
+max      180.000000
+dtype: float64
+```
+
 ---
 
-
-## データフレーム（DataFrame）
+## データフレーム（DataFrame）：生成編1
 
 DataFrameは2次元のデータです。
 
@@ -357,14 +512,43 @@ DataFrameは2次元のデータです。
 
 +++
 
-### xxx
+### データフレーム：生成編2
 
-xxx
+リストから生成
 
 ```python
 >>>
 ```
 
++++
+
+### データフレーム：生成編3
+
+2次元配列から生成
+
+```python
+>>>
+```
+
++++
+
+### データフレーム：生成編4
+
+ディクショナリから生成
+
+```python
+>>>
+```
+
++++
+
+### データフレーム：生成編5
+
+pandasのシリーズから生成
+
+```python
+>>>
+```
 ---
 
 ### まとめ

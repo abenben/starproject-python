@@ -80,6 +80,8 @@ https://vucalabo007.peatix.com/
 
 https://startpython.connpass.com/event/192677
 
+<img src="/slide06-base/images/stapy63.png" height="480">
+
 ---
 
 ### データ処理に関するPython書籍

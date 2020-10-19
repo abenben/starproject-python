@@ -32,16 +32,16 @@
 プロフィール
 
 ```
-* 1970年生まれ。
-* 2005年にPython製WebサーバZope/Python製CMS Ploneに
-特化したCMSコミュニケーションズを起業。
-* 国内でも早い段階からPythonでのシステム開発を手掛けており、
-Ploneのコアコミッターとしても活躍。
-* 2010年にアジアで初めて開催されたPyCon APAC 2010 シンガポールに参加し
-翌年には日本でPyCon JPを立ち上げ、
-現在は一般社団法人PyCon JP Association代表理事を務める。
-* 機械学習図鑑(翔泳社: 2019年4月)などPython著書・監修も多数手掛けている。
-* 最近はPythonをはじめとした技術話題を気軽に発信する
+1970年生まれ。
+2005年にPython製WebサーバZope/Python製CMS Ploneに
+ 特化したCMSコミュニケーションズを起業。
+国内でも早い段階からPythonでのシステム開発を手掛けており、
+ Ploneのコアコミッターとしても活躍。
+2010年にアジアで初めて開催されたPyCon APAC 2010 シンガポールに参加し
+ 翌年には日本でPyCon JPを立ち上げ、
+ 現在は一般社団法人PyCon JP Association代表理事を務める。
+機械学習図鑑(翔泳社: 2019年4月)などPython著書・監修も多数手掛けている。
+最近はPythonをはじめとした技術話題を気軽に発信する
  Podcast「terapyon channel」を配信中。
  https://podcast.terapyon.net/
 * Twitter: @terapyon

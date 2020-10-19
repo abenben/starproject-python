@@ -27,10 +27,14 @@
 
 +++
 
-### 特別講演（寺田学さん）プロフィール
+### 特別講演（寺田学さん）
 
+プロフィール
+
+```
 * 1970年生まれ。2005年にPython製WebサーバZope/Python製CMS Ploneに特化したCMSコミュニケーションズを起業。国内でも早い段階からPythonでのシステム開発を手掛けており、Ploneのコアコミッターとしても活躍。2010年にアジアで初めて開催されたPyCon APAC 2010 シンガポールに参加し翌年には日本でPyCon JPを立ち上げ、現在は一般社団法人PyCon JP Association代表理事を務める。機械学習図鑑(翔泳社: 2019年4月)などPython著書・監修も多数手掛けている。最近はPythonをはじめとした技術話題を気軽に発信するPodcast「terapyon channel」（https://podcast.terapyon.net/）を配信中。
 * Twitter: @terapyon
+```
 
 ---
 
@@ -299,7 +303,9 @@ suzuki      172
 tanaka      165
 kato        180
 watanabe    174
-dtype: int64```
+dtype: int64
+```
+
 +++
 
 ## シリーズ：演算2

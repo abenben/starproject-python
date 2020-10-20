@@ -16,7 +16,8 @@
 
 ---
 
-### 特別講演（寺田学さん）
+### 特別講演（寺田学さん）<img src="/slide06-base/images/terada-san.jpg" height="50">　
+
 
 * 一般社団法人PyCon JP Association 代表理事
 * 一般社団法人Pythonエンジニア育成推進協会 顧問理事

@@ -54,8 +54,6 @@
 
 * [Road to SiliconValley](https://event.svjp.org/)
   * 10/20(火) - 22（水）
-* [VUCA Labo #007](https://vucalabo.connpass.com/)
-  * 10/21（水） <br>循環型で持続可能な地方でのデザイン
 * [みんなのPython勉強会 #62](https://startpython.connpass.com/)
   * 11/12（水） <br>（テーマ調整中）
 
@@ -66,14 +64,6 @@
 https://event.svjp.org/
 
 <img src="/slide05-base/images/event3.jpg" height="480">
-
-+++
-
-### VUCA Labo #007
-
-https://vucalabo007.peatix.com/
-
-<img src="/slide05-base/images/vucalabo_007.jpg" height="480">
 
 +++
 
@@ -525,7 +515,13 @@ dtype: float64
 リストから生成
 
 ```python
->>>
+>>> val = ['a',1,0.5]
+>>> df = pd.DataFrame(val)
+>>> df
+    0
+0    a
+1    1
+2    0.5
 ```
 
 +++
@@ -535,7 +531,12 @@ dtype: float64
 2次元配列から生成
 
 ```python
->>>
+>>> val = [[1,2,3],[4,5,6]]
+>>> df = pd.DataFrame(val, index=['a','b'], columns=['c','d','e'])
+>>> df
+    c    d    e
+a    1    2    3
+b    4    5    6
 ```
 
 +++
@@ -545,7 +546,13 @@ dtype: float64
 ディクショナリから生成
 
 ```python
->>>
+>>> dic = {'a':[1,2,3], 'b':[4,5,6]}
+>>> df = pd.DataFrame(dic)
+>>> df
+    a    b
+0    1    4
+1    2    5
+2    3    6
 ```
 
 +++
@@ -555,8 +562,37 @@ dtype: float64
 pandasのシリーズから生成
 
 ```python
->>>
+>>> age_data = pd.Series([19,22,20], index=['sato','tanaka','suzuki'])
+>>> sex_data = pd.Series(['F','M','F'], index=['sato','suzuki','watanabe'])
+>>> df = pd.DataFrame({'age':age_data, 'sex':sex_data})
+>>> df
+    age    sex
+sato    19.0    F
+suzuki    20.0    M
+tanaka    22.0    NaN
+watanabe    NaN    F
 ```
+
++++
+
+### データフレーム：生成編6
+
+階層構造のあるディクショナリからまとめて生成
+
+```python
+>>> dics = {
+>>>     'age':{'sato':19,'tanaka':22,'suzuki':20},
+>>>     'sex':{'sato':'F','suzuki':'M','watanabe':'F'}
+>>> }
+>>> df = pd.DataFrame(dics)
+>>> df
+age    sex
+sato    19.0    F
+tanaka    22.0    NaN
+suzuki    20.0    M
+watanabe    NaN    F
+```
+
 ---
 
 ### まとめ

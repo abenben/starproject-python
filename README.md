@@ -9,6 +9,7 @@
 * [pythonの基本知識](https://gitpitch.com/abenben/starproject-python/master?p=slide01-base)
 * [第5回 講義スライド（10/5）](https://gitpitch.com/abenben/starproject-python/master?p=slide05-base)
 * [第6回 講義スライド（10/20）](https://gitpitch.com/abenben/starproject-python/master?p=slide06-base)
+* [第7回 講義スライド（11/10）](https://gitpitch.com/abenben/starproject-python/master?p=slide07-base)
 
 ## 3.チュートリアル
 
@@ -20,7 +21,7 @@
 |第4回|2020.09.15(火) 19:00-|[チュートリアル4](tutorial05.ipynb)|
 |第5回|2020.10.06(火) 19:00-|[チュートリアル5](tutorial06.ipynb)|
 |第6回|2020.10.20(火) 19:00-|[チュートリアル6](tutorial07.ipynb)|
-|第7回|2020.11.10(火) 19:00-|チュートリアル7|
+|第7回|2020.11.10(火) 19:00-|[チュートリアル7](tutorial07.ipynb)|
 |第8回|2020.11.24(火) 19:00-|チュートリアル8|
 |第9回|2020.12.08(火) 19:00-|チュートリアル9|
 |第10回|2020.12.22(火) 19:00-|チュートリアル10|

@@ -16,7 +16,7 @@
 
 ---
 
-### 特別講演
+### 特別講演（村井康介）
 
 <img src="/slide07-base/images/murai-san.jpg" height="480">
 
@@ -25,11 +25,11 @@
 ### お知らせ
 
 * [みんなのPython勉強会#63](https://startpython.connpass.com/event/192677/)
-  * 11/12（木） 19:00-21:00<br>〜Pythonでみせる、つたえる。〜
+  * 11/12（木） 19:00〜21:00<br>〜Pythonでみせる、つたえる。〜
 * [VUCA Labo #7](https://peatix.com/event/1696240/view)
-  * 11/26（木） <br>〜サスティナルブルな地域社会の創り方〜
+  * 11/26（木） 20:00〜21:30<br>〜サスティナルブルな地域社会の創り方〜
 * [フィンテックトレンド 2021（フィンテック養成勉強会#11）](https://fintech-engineer.connpass.com/event/193987/)
-  * 12/11（金） <br>〜ニューノーマル時代に不可欠なコンパスを持ち歩く〜
+  * 12/11（金） 19:00〜21:30<br>〜ニューノーマル時代に不可欠なコンパスを持ち歩く〜
 
 +++
 
@@ -45,7 +45,7 @@ https://startpython.connpass.com/event/192677/
 
 https://peatix.com/event/1696240/view
 
-<img src="/slide07-base/images/vuca7.png" height="480">
+<img src="/slide07-base/images/vuca07.png" height="480">
 
 +++
 
@@ -693,11 +693,10 @@ max    153699.0    285784.0    135802.0    149982.0
 
 ### 次回のPython講義
 
-~~『データベース操作』~~
+NVIDIA 井崎さん
 
-『データ処理（その2）』
-
-2020/11/10(火) 19:00〜
+『データベース操作&AI』
+2020/11/24(火) 19:00〜
 
 ---
 

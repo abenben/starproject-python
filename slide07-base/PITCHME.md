@@ -28,7 +28,7 @@
   * 11/12（木） 19:00〜21:00<br>〜Pythonでみせる、つたえる。〜
 * [VUCA Labo #7](https://peatix.com/event/1696240/view)
   * 11/26（木） 20:00〜21:30<br>〜サスティナルブルな地域社会の創り方〜
-* [フィンテックトレンド 2021（フィンテック養成勉強会#11）](https://fintech-engineer.connpass.com/event/193987/)
+* [フィンテックトレンド 2021](https://fintech-engineer.connpass.com/event/193987/)
   * 12/11（金） 19:00〜21:30<br>〜ニューノーマル時代に不可欠なコンパスを持ち歩く〜
 
 +++
@@ -74,7 +74,8 @@ https://fintech-engineer.connpass.com/event/193987/
 
 * Numpy
 * pandas その1
-* pandas その2（今日の講義はこちら）
+* **pandas その2（今日の講義はこちら）**
+ * データ読み込み
 
 +++
 
@@ -105,7 +106,7 @@ pandasはPythonでのデータ分析のツールとして最も活用されて�
 
 ---
 
-### シリーズ（Series）：生成編1
+### pandas データ読み込み
 
 Seriesは1次元データです。
 
@@ -669,9 +670,9 @@ max    153699.0    285784.0    135802.0    149982.0
 
 ### まとめ
 
-* データ処理にはNumpyやpandasを使う
-* 1次元のデータ処理には、pandasのシリーズが使える
-* 2次元のデータ処理には、pandasのデータフレームが使える
+* pandasに様々なデータを取り込める
+* 
+* 
 
 ---
 

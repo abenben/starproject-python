@@ -692,9 +692,27 @@ max    153699.0    285784.0    135802.0    149982.0
 ### 次回のブロックチェーン講義
 
 * 『学生時代に抑えたいフィンテックのポイント』
-  * 2020/11/17(火) 19:00〜
+* 2020/11/17(火) 19:00〜
 
-<img src="/slide07-base/images/fujii.png" height="150"><img src="/slide07-base/images/horiguchi.png" height="150">
+```
+①ショートトーク1（10分） 藤井 達人さん
+②ショートトーク2（10分） 堀口 純一さん
+③ディスカッション（40分）
+ 藤井 達人さん
+ 堀口 純一さん
+```
+ 
++++
+
+### ゲスト1 藤井達人さん
+
+<img src="/slide07-base/images/fujii.png" height="480">
+
++++
+
+### ゲスト２ 堀口純一さん
+
+<img src="/slide07-base/images/horiguchi.png" height="480">
 
 ---
 

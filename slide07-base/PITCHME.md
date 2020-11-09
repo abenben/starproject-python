@@ -45,7 +45,7 @@ https://startpython.connpass.com/event/192677/
 
 https://peatix.com/event/1696240/view
 
-<img src="/slide07-base/images/vuca07.png" height="480">
+<img src="/slide07-base/images/vucalabo07.png" height="480">
 
 +++
 
@@ -693,7 +693,9 @@ max    153699.0    285784.0    135802.0    149982.0
 
 ### 次回のPython講義
 
-NVIDIA 井崎さん
+特別講演
+NVIDIA　エンタープライズ事業部　事業部長
+一般社団法人 日本ディープラーニング協会理事 　井崎　武士 氏
 
 『データベース操作&AI』
 2020/11/24(火) 19:00〜

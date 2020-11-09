@@ -18,7 +18,7 @@
 
 ### 特別講演
 
-<img src="/slide07-base/images/murai-san.png" height="480">
+<img src="/slide07-base/images/murai-san.jpg" height="480">
 
 ---
 

@@ -1,4 +1,4 @@
-### Pythonによるデータ処理
+### Pythonによるデータ処理2
 
 2020年11月10日[Tue] / STAR Project
 
@@ -18,25 +18,42 @@
 
 ### 特別講演
 
+<img src="/slide07-base/images/murai-san.png" height="480">
 
 ---
 
 ### お知らせ
 
-* [みんなのPython勉強会 #62](https://startpython.connpass.com/)
-  * 11/12（水） <br>（テーマ調整中）
-* [VUCA Labo #7](https://startpython.connpass.com/)
-  * 11/26（水） <br>（テーマ調整中）
-* [フィンテックトレンド2021](https://startpython.connpass.com/)
-  * 11/11（金） <br>（テーマ調整中）
+* [みんなのPython勉強会#63](https://startpython.connpass.com/event/192677/)
+  * 11/12（木） 19:00-21:00<br>〜Pythonでみせる、つたえる。〜
+* [VUCA Labo #7](https://peatix.com/event/1696240/view)
+  * 11/26（木） <br>〜サスティナルブルな地域社会の創り方〜
+* [フィンテックトレンド 2021（フィンテック養成勉強会#11）](https://fintech-engineer.connpass.com/event/193987/)
+  * 12/11（金） <br>〜ニューノーマル時代に不可欠なコンパスを持ち歩く〜
 
 +++
 
 ### みんなのPython勉強会 #63
 
-https://startpython.connpass.com/event/192677
+https://startpython.connpass.com/event/192677/
 
-<img src="/slide06-base/images/stapy63.png" height="480">
+<img src="/slide07-base/images/stapy63.png" height="480">
+
++++
+
+### VUCA Labo #7
+
+https://peatix.com/event/1696240/view
+
+<img src="/slide07-base/images/vuca7.png" height="480">
+
++++
+
+### フィンテックトレンド 2021
+
+https://fintech-engineer.connpass.com/event/193987/
+
+<img src="/slide07-base/images/finengine11.png" height="480">
 
 ---
 

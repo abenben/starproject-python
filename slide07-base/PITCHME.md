@@ -691,10 +691,10 @@ max    153699.0    285784.0    135802.0    149982.0
 
 ### 次回のブロックチェーン講義
 
-* 『（仮）学生時代に抑えたいフィンテックのポイント』
+* 『学生時代に抑えたいフィンテックのポイント』
   * 2020/11/17(火) 19:00〜
 
-<a><img src="/slide07-base/images/fujii.png" height="180"></a><a><img src="/slide07-base/images/horiguchi.png" height="180"></a>
+<a><img src="/slide07-base/images/fujii.png" height="150"></a><a><img src="/slide07-base/images/horiguchi.png" height="150"></a>
 
 ---
 

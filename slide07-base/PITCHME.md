@@ -694,9 +694,7 @@ max    153699.0    285784.0    135802.0    149982.0
 * 『（仮）学生時代に抑えたいフィンテックのポイント』
   * 2020/11/17(火) 19:00〜
 
-<img src="/slide07-base/images/fujii.png" height="150">
-
-<img src="/slide07-base/images/horiguchi.png" height="150">
+<img src="/slide07-base/images/fujii.png" witdh="350">　<img src="/slide07-base/images/horiguchi.png" witdh="350">
 
 ---
 

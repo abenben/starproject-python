@@ -137,17 +137,22 @@ HDF5ファイル
 
 +++
 
-Seriesは1次元データです。
+### 1.1.1 CSVファイル読み込み
 
 ```python
->>> ser = pd.Series([10, 20, 30, 40])
->>> print(ser)
-0 10
-1 20
-2 30
-3 40
-dtype: int64
+[プログラム]
+csv_file='https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.csv'
+df=pd.read_csv(csv_file)
+df
 ```
+
+||店舗名|期首在庫数|売上数|仕入数|
+|---|---|---|---|---|
+|**0**|新宿店|100|50|100|
+|**1**|池袋店|500|200|1000|
+|**2**|銀座店|800|300|600|
+|**3**|秋葉原店|300|100|500|
+|**4**|大手町店|700|200|1000|
 
 +++
 

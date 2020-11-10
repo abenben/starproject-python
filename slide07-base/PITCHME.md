@@ -608,7 +608,6 @@ pd.merge(leftdf,rightdf,on='名前',how='right')
 
 * pandasは様々な形式のデータを直接取り込める
 * 複数のデータフレームを自由に結合できる
-* 
 
 ---
 

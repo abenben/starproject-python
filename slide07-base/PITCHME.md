@@ -36,7 +36,7 @@
 
 +++
 
-### みんなのPython勉強会 #63
+### [11/12]みんなのPython勉強会 #63
 
 https://startpython.connpass.com/event/192677/
 
@@ -44,7 +44,7 @@ https://startpython.connpass.com/event/192677/
 
 +++
 
-### VUCA Labo #7
+### [11/26]VUCA Labo #7
 
 https://peatix.com/event/1696240/view
 
@@ -52,7 +52,7 @@ https://peatix.com/event/1696240/view
 
 +++
 
-### フィンテックトレンド 2021
+### [12/11]フィンテックトレンド 2021
 
 https://fintech-engineer.connpass.com/event/193987/
 
@@ -79,6 +79,7 @@ https://fintech-engineer.connpass.com/event/193987/
 * pandas その1
 * **pandas その2（今日の講義はこちら）**
  * データ読み込み
+ * データのマージ
 
 +++
 

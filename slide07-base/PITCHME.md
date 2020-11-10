@@ -221,14 +221,33 @@ df
 
 +++
 
-#### 1.1.1(d) TSVファイル読み込み
+#### 1.1.1(d) 列を絞って読み込む
+
+```python
+[プログラム]
+csv_file='https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.csv'
+df=pd.read_csv(csv_file, usecols=['店舗名','売上数'])
+df
+```
+
+||店舗名|売上数|
+|---|---|---|
+|**0**|新宿店|50|
+|**1**|池袋店|500|
+|**2**|銀座店|300|
+|**3**|秋葉原店|100|
+|**4**|大手町店|200|
+
++++
+
+#### 1.1.1(e) TSVファイル読み込み
 
 * セパレータにタブ（\t）を指定する。
 
 ```python
 [プログラム]
-csv_file='https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.tsv'
-df=pd.read_csv(csv_file, index_col=0,sep='\t')
+tsv_file='https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.tsv'
+df=pd.read_csv(tsv_file, index_col=0,sep='\t')
 df
 ```
 
@@ -239,6 +258,62 @@ df
 |**2**|銀座店|800|300|600|
 |**3**|秋葉原店|300|100|500|
 |**4**|大手町店|700|200|1000|
+
++++
+
+### 1.1.2 EXCEL読み込み
+
+* read_excel()を利用する。
+
+```python
+[プログラム]
+excel_file='https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.xlsx'
+df=pd.read_excel(excel_file)
+df
+```
+
+||店舗名|期首在庫数|売上数|仕入数|
+|---|---|---|---|---|
+|**0**|新宿店|100|50|100|
+|**1**|池袋店|500|200|1000|
+|**2**|銀座店|800|300|600|
+|**3**|秋葉原店|300|100|500|
+|**4**|大手町店|700|200|1000|
+
++++
+
+### 1.1.2 EXCEL読み込み（その２）
+
+* read_excel()の中でxrldを利用するのでインストールが必要
+* Google Colabでは事前にインストール済み
+
+```shell
+[コマンド]
+pip install xrld
+```
+
+
++++
+
+### 1.1.4 Webサイト上の表を読み込む
+
+* Webサイト上のテーブル(tableタグ)を読み込む
+* 例：Yahoo!株価情報（銘柄：日立）
+* 複数まとめて読み込んでくれる（株価は２つ目のテーブル）
+```python
+[プログラム]
+from urllib.request import urlopen
+url = 'https://stocks.finance.yahoo.co.jp/stocks/history/?code=6501.T'
+f = urlopen(url)
+html = f.read()
+df = pd.io.html.read_html(html)
+df[1]
+```
+
+||	日付|	始値|	高値|	安値|	終値|	出来高|	調整後終値*|
+|--|--|--|--|--|--|--|--
+|0	|2020年11月9日|	3548|	3606|	3548|	3591|	2175200|	3591|
+|　：|：|：|：|：|：|：|：|
 
 +++
 

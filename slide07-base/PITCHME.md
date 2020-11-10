@@ -109,7 +109,33 @@ pandasはPythonでのデータ分析のツールとして最も活用されて�
 
 ---
 
-### pandas データ読み込み
+### pandasによるデータ読み込み
+
+以下のファイル形式等を読み込むことができる。
+
+```
+CSVファイル,TSVファイル
+jsonファイル
+EXCELファイル
+htmlファイル
+HDF5ファイル
+```
+
++++
+
+#### CSV,TSV
+
+* CSVファイル（カンマ区切りのファイル）
+* TSVファイル（タブ区切りのファイル）
+
++++
+
+#### PandasによるCSV,TSVの読み込み
+
+
+<img src="/slide07-base/images/pandas-read_csv.png" height="480">
+
++++
 
 Seriesは1次元データです。
 

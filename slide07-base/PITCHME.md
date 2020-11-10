@@ -117,8 +117,8 @@ pandasはPythonでのデータ分析のツールとして最も活用されて�
 CSVファイル,TSVファイル
 jsonファイル
 EXCELファイル
-htmlファイル
-HDF5ファイル
+htmlファイル内のテーブル
+その他（テーブル形式、HDF5ファイルなど）
 ```
 
 +++
@@ -140,6 +140,8 @@ HDF5ファイル
 +++
 
 ### 1.1.1 CSVファイル読み込み
+
+* [CSVファイル](https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.csv)はread_csvを利用する。
 
 ```python
 [プログラム]
@@ -242,7 +244,7 @@ df
 
 #### 1.1.1(e) TSVファイル読み込み
 
-* セパレータにタブ（\t）を指定する。
+* [TSVファイル](https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.tsv)は、セパレータにタブ（\t）を指定する。
 
 ```python
 [プログラム]
@@ -263,7 +265,7 @@ df
 
 ### 1.1.2 EXCEL読み込み
 
-* read_excel()を利用する。
+* [EXCEL](https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.xlsx)はread_excel()を利用する。
 
 ```python
 [プログラム]
@@ -306,6 +308,8 @@ pip install xrld
 * json.org URL : https://www.json.org/jsonja.html
 
 +++
+
+* [jsonファイル](https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.json)はread_json()を利用する。
 
 ```python
 json_file2='https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.json'

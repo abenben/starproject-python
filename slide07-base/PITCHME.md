@@ -305,7 +305,7 @@ pip install xrld
 * JSONの詳しい扱い方は公式ドキュメントを参照ください。
 * json.org URL : https://www.json.org/jsonja.html
 
-### 1.1.3 jsonデータ読み込み（その２）
++++
 
 ```python
 json_file2='https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.json'
@@ -323,9 +323,13 @@ df
 
 ### 1.1.4 Webサイト上の表を読み込む
 
+* io.html.read_html()を利用する。
 * Webサイト上のテーブル(tableタグ)を読み込む
 * 例：Yahoo!株価情報（銘柄：日立）
 * 複数まとめて読み込んでくれる（株価は２つ目のテーブル）
+
++++
+
 ```python
 [プログラム]
 from urllib.request import urlopen
@@ -352,9 +356,13 @@ pandasのマージはmerge()を利用する。
 
 +++
 
-### 1.2.1 1対1のマージ（同じキー名） (1/3)
+### 1.2.1 1対1のマージ（同じキー名） 
 
 同じキー名でマージする場合は、mege関数のonオプションを利用する。
+
++++
+
+元データ1（左側）
 
 ```python
 [プログラム1]
@@ -374,7 +382,7 @@ leftdf
 
 +++
 
-### 1.2.1 1対1のマージ（同じキー名） (2/3)
+元データ２（右側）
 
 ```python
 [プログラム2]
@@ -394,7 +402,7 @@ rightdf
 
 +++
 
-### 1.2.1 1対1のマージ（同じキー名） (3/3)
+データ1（右側）とデータ２（右側）をマージする
 
 ```python
 [プログラム3]

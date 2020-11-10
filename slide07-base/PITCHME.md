@@ -132,6 +132,8 @@ HDF5ファイル
 
 #### PandasによるCSV,TSVの読み込み
 
+* read_csv()を利用する
+* read_csv()の主なオプション
 
 <img src="/slide07-base/images/pandas-read_csv.png" height="480">
 
@@ -156,10 +158,64 @@ df
 
 +++
 
-正確には、
-シリーズはインデックス付けされた複数のデータ型（int、str、float等）を持つことが可能な1次元配列のオブジェクトです。
+#### 1.1.1(a) ヘッダー、カラムを指定
 
-<img src="/slide06-base/images/series.png" height="480">
+```python
+[プログラム]
+csv_file='https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.csv'
+df=pd.read_csv(csv_file,index_col=0,header=0)
+df
+```
+
+|**店舗名**|期首在庫数|売上数|仕入数|
+|---|---|---|---|
+|**新宿店**|100|50|100|
+|**池袋店**|500|200|1000|
+|**銀座店**|800|300|600|
+|**秋葉原店**|300|100|500|
+|**大手町店**|700|200|1000|
+
++++
+
+#### 1.1.1(b) ヘッダー・カラムの指定無し
+
+ヘッダーがないデータには、header=Noneを指定する。
+
+```python
+[プログラム]
+csv_file='https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.csv'
+df=pd.read_csv(csv_file,index_col=None,header=None)
+df
+```
+
+||0|1|2|3|
+|---|---|---|---|---|
+|**0**|店舗名|期首在庫数|売上数|仕入数|
+|**1**|新宿店|100|50|100|
+|**2**|池袋店|500|200|1000|
+|**3**|銀座店|800|300|600|
+|**4**|秋葉原店|300|100|500|
+|**5**|大手町店|700|200|1000|
+
+
++++
+
+#### 1.1.1(c) TSVファイル読み込み
+
+```python
+[プログラム]
+csv_file='https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.tsv'
+df=pd.read_csv(csv_file, index_col=0,sep='\t')
+df
+```
+
+||店舗名|期首在庫数|売上数|仕入数|
+|---|---|---|---|---|
+|**0**|新宿店|100|50|100|
+|**1**|池袋店|500|200|1000|
+|**2**|銀座店|800|300|600|
+|**3**|秋葉原店|300|100|500|
+|**4**|大手町店|700|200|1000|
 
 +++
 

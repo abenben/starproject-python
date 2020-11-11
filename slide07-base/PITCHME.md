@@ -146,8 +146,9 @@ htmlファイル内のテーブル
 
 ```python
 [プログラム]
-csv_file='https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.csv'
-df=pd.read_csv(csv_file)
+csv_file = 'https://github.com/abenben/starproject-python/
+            raw/master/sampledata/tutorial05/store.csv'
+df = pd.read_csv(csv_file)
 df
 ```
 
@@ -165,8 +166,9 @@ df
 
 ```python
 [プログラム]
-csv_file='https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.csv'
-df=pd.read_csv(csv_file,index_col=0,header=0)
+csv_file = 'https://github.com/abenben/starproject-python/
+            raw/master/sampledata/tutorial05/store.csv'
+df = pd.read_csv(csv_file, index_col=0, header=0)
 df
 ```
 
@@ -186,8 +188,9 @@ df
 
 ```python
 [プログラム]
-csv_file='https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.csv'
-df=pd.read_csv(csv_file,index_col=None,header=None)
+csv_file = 'https://github.com/abenben/starproject-python/
+            raw/master/sampledata/tutorial05/store.csv'
+df = pd.read_csv(csv_file, index_col=None, header=None)
 df
 ```
 
@@ -209,8 +212,10 @@ df
 
 ```python
 [プログラム]
-csv_file='https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.csv'
-df=pd.read_csv(csv_file, index_col=0, header=0,names=list(['店','在庫','売上','仕入']))
+csv_file = 'https://github.com/abenben/starproject-python/
+            raw/master/sampledata/tutorial05/store.csv'
+df=pd.read_csv(csv_file, index_col=0, header=0,
+               names=list(['店','在庫','売上','仕入']))
 df
 ```
 
@@ -228,8 +233,9 @@ df
 
 ```python
 [プログラム]
-csv_file='https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.csv'
-df=pd.read_csv(csv_file, usecols=['店舗名','売上数'])
+csv_file = 'https://github.com/abenben/starproject-python/
+            raw/master/sampledata/tutorial05/store.csv'
+df = pd.read_csv(csv_file, usecols=['店舗名','売上数'])
 df
 ```
 
@@ -249,8 +255,9 @@ df
 
 ```python
 [プログラム]
-tsv_file='https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.tsv'
-df=pd.read_csv(tsv_file, index_col=0,sep='\t')
+tsv_file = 'https://github.com/abenben/starproject-python/
+            raw/master/sampledata/tutorial05/store.tsv'
+df = pd.read_csv(tsv_file, index_col=0, sep='\t')
 df
 ```
 
@@ -270,8 +277,9 @@ df
 
 ```python
 [プログラム]
-excel_file='https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.xlsx'
-df=pd.read_excel(excel_file)
+excel_file = 'https://github.com/abenben/starproject-python/
+              raw/master/sampledata/tutorial05/store.xlsx'
+df = pd.read_excel(excel_file)
 df
 ```
 
@@ -313,8 +321,9 @@ pip install xrld
 * [jsonファイル](https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.json)はread_json()を利用する。
 
 ```python
-json_file2='https://github.com/abenben/starproject-python/raw/master/sampledata/tutorial05/store.json'
-df=pd.read_json(json_file2)
+json_file2 = 'https://github.com/abenben/starproject-python/
+              raw/master/sampledata/tutorial05/store.json'
+df = pd.read_json(json_file2)
 df
 ```
 
@@ -338,7 +347,8 @@ df
 ```python
 [プログラム]
 from urllib.request import urlopen
-url = 'https://stocks.finance.yahoo.co.jp/stocks/history/?code=6501.T'
+url = 
+ 'https://stocks.finance.yahoo.co.jp/stocks/history/?code=6501.T'
 f = urlopen(url)
 html = f.read()
 df = pd.io.html.read_html(html)
@@ -411,7 +421,7 @@ rightdf
 
 ```python
 [プログラム3]
-pd.merge(leftdf,rightdf,on='名前')
+pd.merge(leftdf, rightdf, on='名前')
 ```
 
 |身長|体重|名前|国語|数学|
@@ -473,7 +483,7 @@ rightdf
 
 ```python
 [プログラム3]
-pd.merge(leftdf,rightdf,left_on='名前',right_on='氏名')
+pd.merge(leftdf, rightdf, left_on='名前', right_on='氏名')
 ```
 
 ||身長|体重|名前|国語|数学|氏名|
@@ -544,7 +554,7 @@ rightdf
 
 ```python
 [プログラム3]
-pd.merge(leftdf,rightdf,on='名前',how='inner')
+pd.merge(leftdf, rightdf, on='名前', how='inner')
 ```
 
 ||身長|体重|名前|国語|数学|
@@ -559,7 +569,7 @@ pd.merge(leftdf,rightdf,on='名前',how='inner')
 
 ```python
 [プログラム4]
-pd.merge(leftdf,rightdf,on='名前',how='outner')
+pd.merge(leftdf, rightdf, on='名前', how='outner')
 ```
 
 ||身長|体重|名前|国語|数学|
@@ -576,7 +586,7 @@ pd.merge(leftdf,rightdf,on='名前',how='outner')
 
 ```python
 [プログラム5]
-pd.merge(leftdf,rightdf,on='名前',how='left')
+pd.merge(leftdf, rightdf, on='名前', how='left')
 ```
 
 ||身長|体重|名前|国語|数学|
@@ -592,7 +602,7 @@ pd.merge(leftdf,rightdf,on='名前',how='left')
 
 ```python
 [プログラム6]
-pd.merge(leftdf,rightdf,on='名前',how='right')
+pd.merge(leftdf, rightdf, on='名前', how='right')
 ```
 
 ||身長|体重|名前|国語|数学|
@@ -622,8 +632,8 @@ pd.merge(leftdf,rightdf,on='名前',how='right')
 np.random.seed(seed=1)
 scores = np.random.randint(60, 100, size=50).reshape(10, 5)
 subs = ['国語', '数学', '理科', '社会', '英語']
-df = pd.DataFrame(scores,columns=subs)
-df['部活'] = np.random.choice(['サッカー','野球', 'テニス'], size=10)
+df = pd.DataFrame(scores, columns=subs)
+df['部活'] = np.random.choice(['サッカー','野球','テニス'], size=10)
 df['性別'] = np.random.choice(['男','女'], size=10)
 df
 ```
@@ -649,7 +659,7 @@ df
 
 ```python
 [プログラム2]
-pd.pivot_table(df,index='性別',aggfunc=np.mean)
+pd.pivot_table(df, index='性別', aggfunc=np.mean)
 ```
 
 |   |国語 |数学 |理科 |社会 |英語 |
@@ -663,7 +673,7 @@ pd.pivot_table(df,index='性別',aggfunc=np.mean)
 
 ```python
 [プログラム3]
-pd.pivot_table(df,index='性別',values='数学')
+pd.pivot_table(df, index='性別', values='数学')
 ```
 
 |   |数学 |
@@ -677,7 +687,7 @@ pd.pivot_table(df,index='性別',values='数学')
 
 ```python
 [プログラム4]
-pd.pivot_table(df,index='性別',values=['数学','英語'])
+pd.pivot_table(df, index='性別', values=['数学','英語'])
 ```
 
 |   |数学 |英語 |
@@ -691,7 +701,8 @@ pd.pivot_table(df,index='性別',values=['数学','英語'])
 
 ```python
 [プログラム5]
-pd.pivot_table(df,index='部活',columns='性別',aggfunc=np.mean)
+pd.pivot_table(df, index='部活',
+               columns='性別',aggfunc=np.mean)
 ```
 
 +++
@@ -708,7 +719,8 @@ pd.pivot_table(df,index='部活',columns='性別',aggfunc=np.mean)
 
 ```python
 [プログラム6]
-pd.pivot_table(df,index=['性別','部活'],aggfunc=np.mean)
+pd.pivot_table(df, index=['性別','部活'],
+               aggfunc=np.mean)
 ```
 
 +++
@@ -728,7 +740,9 @@ pd.pivot_table(df,index=['性別','部活'],aggfunc=np.mean)
 
 ```python
 [プログラム7]
-pd.pivot_table(df,index=['性別','部活'],values='英語',aggfunc=[np.sum,np.max,np.min])
+pd.pivot_table(df, index=['性別','部活'],
+               values='英語',
+               aggfunc=[np.sum, np.max, np.min])
 ```
 
 +++
@@ -748,7 +762,8 @@ pd.pivot_table(df,index=['性別','部活'],values='英語',aggfunc=[np.sum,np.m
 
 ```python
 [プログラム8]
-pd.pivot_table(df,index=['性別','部活'],aggfunc={'英語':np.max,'数学':np.mean})
+pd.pivot_table(df, index=['性別','部活'],
+               aggfunc={'英語':np.max, '数学':np.mean})
 ```
 
 +++
@@ -768,7 +783,8 @@ pd.pivot_table(df,index=['性別','部活'],aggfunc={'英語':np.max,'数学':np
 
 ```python
 [プログラム9]
-pd.pivot_table(df,index='部活',values='数学',aggfunc=np.mean,margins=True)
+pd.pivot_table(df, index='部活', values='数学',
+               aggfunc=np.mean, margins=True)
 ```
 
 |        |数学 |
@@ -784,7 +800,9 @@ pd.pivot_table(df,index='部活',values='数学',aggfunc=np.mean,margins=True)
 
 ```python
 [プログラム10]
-pd.pivot_table(df,index='部活',columns='性別',values='数学',aggfunc=np.mean,margins=True)
+pd.pivot_table(df, index='部活', columns='性別',
+               values='数学',
+               aggfunc=np.mean, margins=True)
 ```
 
 |        | 女  | 男  | All |
@@ -834,7 +852,7 @@ df
 
 ```python
 [プログラム2]
-pd.crosstab(index=df['性別'],columns=df['営業所'])
+pd.crosstab(index=df['性別'], columns=df['営業所'])
 ```
 
 |   |名古屋|大阪|東京|
@@ -848,7 +866,8 @@ pd.crosstab(index=df['性別'],columns=df['営業所'])
 
 ```python
 [プログラム3]
-pd.crosstab(index=[df['性別'],df['営業所']],columns=df['部門'])
+pd.crosstab(index=[df['性別'], df['営業所']],
+            columns=df['部門'])
 ```
 
 |                |人事|営業|販促|開発|
@@ -866,7 +885,8 @@ pd.crosstab(index=[df['性別'],df['営業所']],columns=df['部門'])
 
 ```python
 [プログラム4]
-pd.crosstab(index=[df['性別'],df['営業所']],columns=df['部門'],margins=True)
+pd.crosstab(index=[df['性別'], df['営業所']],
+            columns=df['部門'], margins=True)
 ```
 
 |                |人事|営業|販促|開発|All|
@@ -884,7 +904,8 @@ pd.crosstab(index=[df['性別'],df['営業所']],columns=df['部門'],margins=Tr
 
 ```python
 [プログラム5]
-pd.crosstab(index=df['性別'],columns=df['営業所'],values=df['評価'],aggfunc=np.mean)
+pd.crosstab(index=df['性別'], columns=df['営業所'],
+            values=df['評価'], aggfunc=np.mean)
 ```
 
 |   |名古屋|大阪|東京|

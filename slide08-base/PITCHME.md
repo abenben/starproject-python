@@ -18,7 +18,7 @@
 
 ### 特別講演（村井康介さん）
 
-<img src="/slide07-base/images/murai-san.jpg" height="480">
+<img src="/slide08-base/images/izaki-san.jpg" height="480">
 
 ---
 
@@ -27,10 +27,10 @@
 * [VUCA Labo #7](https://peatix.com/event/1696240/view)
   * 11/26（木） 20:00〜21:30
     * 〜サスティナルブルな地域社会の創り方〜
-* [みんなのPython勉強会#64]
-  * 11/12（木） 19:00〜21:00
-* [Fin-JAWS]
-  * 11/12（木） 19:00〜21:00
+* [みんなのPython勉強会#64](https://startpython.connpass.com/event/195410/)
+  * 12/09（水） 19:00〜21:00
+* [Fin-JAWS](https://fin-jaws.connpass.com/event/195041/)
+  * 12/09（水） 19:00〜21:00
 * [フィンテックトレンド 2021](https://fintech-engineer.connpass.com/event/193987/)
   * 12/11（金） 19:00〜21:30
     * 〜ニューノーマル時代に不可欠なコンパスを持ち歩く〜
@@ -57,16 +57,12 @@ https://fintech-engineer.connpass.com/event/193987/
 
 ---
 
-### データ処理に関するPython書籍
+### データベースに関するお薦め図書
 
 <a href="https://www.shoeisha.co.jp/book/detail/9784798158341"><img src="/slide06-base/images/pandas8.jpg" height="150"></a>　
 <a href="https://www.oreilly.co.jp/books/9784873118451/"><img src="/slide06-base/images/pandas4.jpg" height="150"></a>　
 <a href="https://gihyo.jp/book/2020/978-4-297-11568-5"><img src="/slide06-base/images/pandas7.jpg" height="150"></a>　
 <a href="https://www.shuwasystem.co.jp/book/9784798058757.html"><img src="/slide06-base/images/pandas2.jpg" height="150"></a><br>　
-<a href="https://www.shoeisha.co.jp/book/detail/9784798160672"><img src="/slide06-base/images/pandas5.jpg" height="150"></a>　
-<a href="https://gihyo.jp/book/2018/978-4-7741-9647-3"><img src="/slide06-base/images/pandas3.jpg" height="150"></a>　
-<a href="https://book.impress.co.jp/books/1118101067"><img src="/slide06-base/images/pandas1.jpg" height="150"></a>　
-<a href="http://www.asakura.co.jp/books/isbn/978-4-254-12242-8/"><img src="/slide06-base/images/pandas6.jpg" height="150"></a>
 
 ---
 
@@ -933,39 +929,27 @@ pd.crosstab(index=df['性別'], columns=df['営業所'],
 
 ### 次回のブロックチェーン講義
 
-* 『学生時代に抑えたいフィンテックのポイント』
-* 2020/11/17(火) 19:00〜
+* 『これからのデータ社会で活躍するために身につけるべきプライバシースキル』
+* 2020/12/15(火) 19:00〜
 
 ```
-①ショートトーク1（10分） 藤井 達人さん
-②ショートトーク2（10分） 堀口 純一さん
-③ディスカッション（40分）
- 藤井 達人さん
- 堀口 純一さん
+①プライバシーがなぜ重要なのか？（20分） 栗原 宏平さん
+②ワークショップ：プライバシーを理解するワークショップ（40分） 
 ```
  
 +++
 
-### ゲスト1 藤井達人さん
+### ゲスト 栗原 宏平さん
 
-<img src="/slide07-base/images/fujii.png" height="480">
+Privacy by Design Lab 代表理事
 
-+++
-
-### ゲスト２ 堀口純一さん
-
-<img src="/slide07-base/images/horiguchi.png" height="480">
+大学時代にマーケティングを専攻し、議員秘書やNPOでのイベント運営に携わる。CollaboGate JapanではCMOとして大企業向けのブロックチェーンIDのデータ認証基盤開発を行う。ビジネス、政府領域のブロックチェーン及びビジネス領域でのデータプライバシー専門家として、ユネスコを始め国際学会などで積極的に情報発信を行う。アメリカのワシントンDCを拠点に全世界に展開するNPO法人Government Blockchain Associationの日本代表を兼務。
 
 ---
 
 ### 次回のPython講義
 
-2020/11/24(火) 19:00〜
-
-* 特別講演
- * 井崎武士さん
-   * **NVIDIA**エンタープライズ事業部事業部長
-   * 日本ディープラーニング協会 理事
+2020/12/01(火) 19:00〜
 
 * チュートリアル
  * 『データベース操作』

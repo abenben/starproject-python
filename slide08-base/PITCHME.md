@@ -60,20 +60,19 @@ https://fintech-engineer.connpass.com/event/193987/
 ### データベースに関するお薦め図書
 
 <a href="https://www.shoeisha.co.jp/book/detail/9784798158341"><img src="/slide06-base/images/pandas8.jpg" height="150"></a>　
-<a href="https://www.oreilly.co.jp/books/9784873118451/"><img src="/slide06-base/images/pandas4.jpg" height="150"></a>　
-<a href="https://gihyo.jp/book/2020/978-4-297-11568-5"><img src="/slide06-base/images/pandas7.jpg" height="150"></a>　
-<a href="https://www.shuwasystem.co.jp/book/9784798058757.html"><img src="/slide06-base/images/pandas2.jpg" height="150"></a><br>　
 
 ---
 
 ## データ処理
 
-* Numpy
-* pandas その1
-* **pandas その2（今日の講義はこちら）**
- * データ読み込み
- * データのマージ
- * データの集計
+* データベースとは
+* データベースの種類
+* データベースの準備
+* データベースの操作
+ * 追加
+ * 検索
+ * 変更
+ * 削除
 
 +++
 
@@ -949,10 +948,10 @@ Privacy by Design Lab 代表理事
 
 ### 次回のPython講義
 
-2020/12/01(火) 19:00〜
+2020/12/08(火) 19:00〜
 
 * チュートリアル
- * 『データベース操作』
+ * 『データの可視化・Webデータの取得（API、スクレイピング）』
 
 ---
 

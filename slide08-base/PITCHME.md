@@ -53,7 +53,7 @@ https://peatix.com/event/1696240/view
 
 https://fintech-engineer.connpass.com/event/193987/
 
-<img src="/slide07-base/images/finengine11.png" height="480">
+<img src="/slide08-base/images/fin11.jpg" height="480">
 
 ---
 

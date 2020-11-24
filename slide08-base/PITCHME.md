@@ -59,8 +59,8 @@ https://fintech-engineer.connpass.com/event/193987/
 
 ### データベースに関するお薦め図書
 
-<a href="https://www.shoeisha.co.jp/book/detail/9784798158341"><img src="/slide08-base/images/sql1.jpg" height="150"></a>　
-<a href="https://www.shoeisha.co.jp/book/detail/9784798158341"><img src="/slide08-base/images/sql2.jpeg" height="150"></a>　
+<a href="https://www.amazon.co.jp/dp/4295005096"><img src="/slide08-base/images/SQL1.jpg" height="150"></a>　
+<a href="https://www.amazon.co.jp/dp/4839961263"><img src="/slide08-base/images/sql2.jpeg" height="150"></a>　
 
 ---
 

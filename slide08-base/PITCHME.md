@@ -16,7 +16,7 @@
 
 ---
 
-### 特別講演（村井康介さん）
+### 特別講演（井﨑武士 先生）
 
 <img src="/slide08-base/images/izaki-san.jpg" height="480">
 
@@ -115,10 +115,11 @@ DBMS（DataBaseManagementSystem）という。
 
 ## RDBMSの種類
 
-* Oracle Databas
-* MicroSoft SQLServer
-* PostgreSQL
-* MySQL
+* Oracle Databas（有償：サポートあり）
+* MicroSoft SQLServer（有償：サポートあり）
+* PostgreSQL（無償：OSS）
+* MySQL（無償：OSS）
+* SQLite（無償：OSS）
 * ほかにもたくさんある
 
 +++
@@ -265,15 +266,17 @@ WHERE　削除する行を特定する条件;
 
 #### SQLiteで動作確認
 
-* CSVファイル（カンマ区切りのファイル）
+PythonからSQLiteに接続してSQLを操作してみよう
+
+[]
 
 ---
 
 ### まとめ（SQL）
 
-* 様々な形式のデータを直接取り込める
-* 複数のデータフレームを自由に結合できる
-* 複雑な集計が行える
+* データベースを利用するとみんなでデータが管理できる
+* 大量のデータも管理できる
+* データの追加・変更、参照にはSQL文を使う
 
 ---
 

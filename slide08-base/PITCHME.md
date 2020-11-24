@@ -270,7 +270,7 @@ WHERE　削除する行を特定する条件;
 
 PythonからSQLiteに接続してSQLを操作してみよう
 
-[チュートリアル8](tutorial09.ipynb)
+[チュートリアル8](https://github.com/abenben/starproject-python/blob/master/tutorial08.ipynb)
 
 ---
 

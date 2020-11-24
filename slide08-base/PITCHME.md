@@ -180,12 +180,79 @@ PC側（プログラム実行部分）からのリクエストは、
 
 +++
 
+#### CREATE文（DDL）
+
+テーブルを作成する
+
+```
+CREATE TABLE テーブル名 ( フィールド定義, フィールド定義,... )
+```
+
++++
+
+#### DROP文（DDL）
+
+テーブルを削除する
+
+```
+DROP TABLE テーブル名
+```
+
++++
+
 ### 主なデータ定義言語（DML）
 
 * SELECT
 * INSERT
 * UPDATE
 * DELETE
+
++++
+
+#### SELECT文（DML）
+
+データを参照するSQL文
+
+```
+SELECT   列名, 列名, …
+FROM     表名
+WHERE    列名 =(比較演算子) 値
+ORDER BY ソート列 (ASC / DESC)
+```
+
++++
+
+#### INSERT文（DML）
+
+データを追加するSQL文
+
+```
+INSERT  INTO 表名 (列1, 列2, 列3・・・)
+VALUES            (値1, 値2, 値3・・・) ;
+```
+
++++
+
+#### UPDATE文（DML）
+
+データを更新するSQL文
+
+```
+UPDATE  表名
+SET    列名 = 値 
+WHERE　更新する行を特定する条件;
+```
+
++++
+
+#### DELETE文（DML）
+
+データを削除するSQL文
+
+```
+DELETE  FROM  表名
+WHERE　削除する行を特定する条件;
+```
 
 +++
 

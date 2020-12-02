@@ -6,18 +6,18 @@
 
 ## 2.スライド
 
-* [pythonの基本知識](https://gitpitch.com/abenben/starproject-python/master?p=slide01-base)
-* [第5回 講義スライド（10/5）](https://gitpitch.com/abenben/starproject-python/master?p=slide05-base)
+* [第1回 講義スライド（08/04）](https://gitpitch.com/abenben/starproject-python/master?p=slide01-base)
+* [第5回 講義スライド（10/05）](https://gitpitch.com/abenben/starproject-python/master?p=slide05-base)
 * [第6回 講義スライド（10/20）](https://gitpitch.com/abenben/starproject-python/master?p=slide06-base)
 * [第7回 講義スライド（11/10）](https://gitpitch.com/abenben/starproject-python/master?p=slide07-base)
 * [第8回 講義スライド（11/24）](https://gitpitch.com/abenben/starproject-python/master?p=slide08-base)
-* [第8回 講義スライド（12/8）](https://gitpitch.com/abenben/starproject-python/master?p=slide09-base)
+* [第8回 講義スライド（12/08）](https://gitpitch.com/abenben/starproject-python/master?p=slide09-base)
 
 ## 3.チュートリアル
 
 |#|日時|タイトル|
 |---|---|---|
-|第1回|2020.08.04(火) 19:00-|[pythonを始めよう](tutorial01.ipynb)|
+|第1回|2020.08.04(火) 19:00-|[チュートリアル1](tutorial01.ipynb)|
 |第2回|2020.08.04(火) 19:00-|[チュートリアル2](tutorial02.ipynb)|
 |第3回|2020.09.01(火) 19:00-|[チュートリアル3](tutorial03.ipynb)|
 |第4回|2020.09.15(火) 19:00-|[チュートリアル4](tutorial04.ipynb)|

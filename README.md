@@ -11,7 +11,7 @@
 * [第6回 講義スライド（10/20）](https://gitpitch.com/abenben/starproject-python/master?p=slide06-base)
 * [第7回 講義スライド（11/10）](https://gitpitch.com/abenben/starproject-python/master?p=slide07-base)
 * [第8回 講義スライド（11/24）](https://gitpitch.com/abenben/starproject-python/master?p=slide08-base)
-* [第8回 講義スライド（12/08）](https://gitpitch.com/abenben/starproject-python/master?p=slide09-base)
+* [第9回 講義スライド（12/08）](https://gitpitch.com/abenben/starproject-python/master?p=slide09-base)
 
 ## 3.チュートリアル
 

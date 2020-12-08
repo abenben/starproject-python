@@ -2,11 +2,11 @@
 
 ### 1.グラフの種類
 
-|種類|概要|
+|ライブラリ|概要|
 |---|---|
-|matplotlib|
-|Seabon|
-|Bokeh|
+|[matplotlib](https://matplotlib.org)|最も一般的|
+|[seborn](https://seaborn.pydata.org)|ビジュアル|
+|[plotly](https://plotly.com/python/)|インタラクティブ|
 
 ### 2.matplotlib
 

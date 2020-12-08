@@ -83,7 +83,7 @@ https://peatix.com/event/1696240/view
 データの可視化とは、伝えるべき事を伝えることです。
 （グラフを作ることではない）
 
-
+<img src="https://technical-creator.com/wp-content/uploads/2016/06/Nightingale-mortality.jpg" height="480">
 
 ---
 

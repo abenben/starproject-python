@@ -103,7 +103,7 @@ https://peatix.com/event/1696240/view
 
 ## 2.グラフの種類(2)
 
-<img src="/slide09-base/images/graph.png" height="480">
+<img src="/slide09-base/images/graphtype.png" height="480">
 
 ---
 

@@ -58,15 +58,15 @@ https://peatix.com/event/1696240/view
 
 ### データの可視化に関するお薦め図書
 
-<a href="https://www.amazon.co.jp/dp/4798144452"><img src="/slide09-base/images/book1.jpg" height="200"></a>　
-<a href="https://www.amazon.co.jp/dp/4295005096"><img src="/slide09-base/images/book2.jpg" height="200"></a>　
+<a href="https://www.amazon.co.jp/dp/4774192198"><img src="/slide09-base/images/book01.jpg" height="200"></a>　
+<a href="https://www.amazon.co.jp/dp/4815604053"><img src="/slide09-base/images/book02.jpeg" height="200"></a>　
 
 +++
 
 ### Pythonデータ可視化に関するお薦め図書
 
-<a href="https://www.amazon.co.jp/dp/4798144452"><img src="/slide09-base/images/book3.jpg" height="200"></a>　
-<a href="https://www.amazon.co.jp/dp/4295005096"><img src="/slide09-base/images/book4.jpg" height="200"></a>　
+<a href="https://www.amazon.co.jp/dp/4297115689"><img src="/slide09-base/images/book03.jpg" height="200"></a>　
+<a href="https://www.amazon.co.jp/dp/4254122586"><img src="/slide09-base/images/book04.jpeg" height="200"></a>　
 
 ---
 
@@ -109,9 +109,9 @@ DB（デービー）とも呼ばれる。
 
 |ライブラリ|概要|
 |---|---|
-|matplotlib|
-|seborn|
-|plotly|
+|[matplotlib](https://matplotlib.org)|
+|[seborn](https://seaborn.pydata.org)|
+|[plotly](https://plotly.com/python/)|
 
 ---
 

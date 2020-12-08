@@ -46,14 +46,6 @@ https://fintech-engineer.connpass.com/event/193987/
 
 <img src="/slide08-base/images/fin11.jpg" height="480">
 
-+++
-
-### [11/26]VUCA Labo #8
-
-https://peatix.com/event/1696240/view
-
-<img src="/slide07-base/images/vucalabo07.png" height="480">
-
 ---
 
 ### データの可視化に関するお薦め図書
@@ -100,15 +92,15 @@ https://peatix.com/event/1696240/view
 |積み上げグラフ・帯グラフ|データ量が異なる内訳が得意|
 |ヒートマップ|データの偏りが得意|
 
----
++++
 
 ## 2.グラフの種類(2)
 
 <img src="/slide09-base/images/graphtype.png" height="480">
 
----
++++
 
-## 3.グラフの種類
+## 3.グラフの種類(3)
 
 ### グラフを最初に考えた人
 
@@ -127,17 +119,17 @@ https://math.usu.edu/~symanzik/papers/2009_cost/editorial_09_01_2009.pdf
 
 |ライブラリ|概要|
 |---|---|
-|[matplotlib](https://matplotlib.org)|
-|[seborn](https://seaborn.pydata.org)|
-|[plotly](https://plotly.com/python/)|
+|[matplotlib](https://matplotlib.org)|最も一般的|
+|[seborn](https://seaborn.pydata.org)|ビジュアル|
+|[plotly](https://plotly.com/python/)|インタラクティブ|
 
 ---
 
 ### まとめ（データ可視化）
 
-* データベースを利用するとみんなでデータが管理できる
-* 大量のデータも管理できる
-* データの追加・変更、参照にはSQL文を使う
+* 伝えるべき事を伝えるのが目的
+* 何を伝えたいかでグラフを選ぶこと
+*テキストや数字を見せるだけでも伝わる場合は無理に使わない
 
 ---
 

@@ -36,7 +36,7 @@
 * [Fin-JAWS]
   * 12/22（火） 19:00〜21:00
 * [VUCA Labo]
-  * 12/22（火） 19:00〜21:00
+  * 2021年1月開催
 
 +++
 
@@ -135,7 +135,7 @@ DB（デービー）とも呼ばれる。
 
 ### 次回のブロックチェーン講義
 
-<img src="/slide09-base/images/BO04.jpg" height="480">
+<img src="/slide09-base/images/BL04.jpg" height="480">
  
 +++
 

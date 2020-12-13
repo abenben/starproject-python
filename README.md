@@ -12,6 +12,7 @@
 * [第7回 講義スライド（11/10）](https://gitpitch.com/abenben/starproject-python/master?p=slide07-base)
 * [第8回 講義スライド（11/24）](https://gitpitch.com/abenben/starproject-python/master?p=slide08-base)
 * [第9回 講義スライド（12/08）](https://gitpitch.com/abenben/starproject-python/master?p=slide09-base)
+* [第10回 講義スライド（12/22）](https://gitpitch.com/abenben/starproject-python/master?p=slide10-base)
 
 ## 3.チュートリアル
 
@@ -26,7 +27,7 @@
 |第7回|2020.11.10(火) 19:00-|[チュートリアル7](tutorial07.ipynb)|[![nbviewer](https://camo.githubusercontent.com/bfeb5472ee3df9b7c63ea3b260dc0c679be90b97/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656e6465722d6e627669657765722d6f72616e67652e7376673f636f6c6f72423d66333736323626636f6c6f72413d346434643464)](https://nbviewer.jupyter.org/github/abenben/starproject-python/blob/master/tutorial07.ipynb)|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abenben/starproject-python/blob/master/tutorial07.ipynb)|
 |第8回|2020.11.24(火) 19:00-|[チュートリアル8](tutorial08.ipynb)|[![nbviewer](https://camo.githubusercontent.com/bfeb5472ee3df9b7c63ea3b260dc0c679be90b97/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656e6465722d6e627669657765722d6f72616e67652e7376673f636f6c6f72423d66333736323626636f6c6f72413d346434643464)](https://nbviewer.jupyter.org/github/abenben/starproject-python/blob/master/tutorial08.ipynb)|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abenben/starproject-python/blob/master/tutorial08.ipynb)|
 |第9回|2020.12.08(火) 19:00-|[チュートリアル9](tutorial09.ipynb)|[![nbviewer](https://camo.githubusercontent.com/bfeb5472ee3df9b7c63ea3b260dc0c679be90b97/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656e6465722d6e627669657765722d6f72616e67652e7376673f636f6c6f72423d66333736323626636f6c6f72413d346434643464)](https://nbviewer.jupyter.org/github/abenben/starproject-python/blob/master/tutorial09.ipynb)|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abenben/starproject-python/blob/master/tutorial09.ipynb)|
-|第10回|2020.12.22(火) 19:00-|チュートリアル10|
+|第10回|2020.12.22(火) 19:00-|チュートリアル10](tutorial10.ipynb)|[![nbviewer](https://camo.githubusercontent.com/bfeb5472ee3df9b7c63ea3b260dc0c679be90b97/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656e6465722d6e627669657765722d6f72616e67652e7376673f636f6c6f72423d66333736323626636f6c6f72413d346434643464)](https://nbviewer.jupyter.org/github/abenben/starproject-python/blob/master/tutorial10.ipynb)|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abenben/starproject-python/blob/master/tutorial10.ipynb)|
 |第11回|2021.1.xx(xx) 19:00-|チュートリアル11|
 
 ## 4.チュートリアル（おまけ）

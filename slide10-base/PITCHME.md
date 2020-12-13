@@ -9,7 +9,8 @@
 ### アジェンダ
 
 * お知らせ
-* データの可視化
+* スクレイピング
+* テキスト解析
 * まとめ
 * 連絡事項
 
@@ -19,8 +20,6 @@
 
 ### お知らせ
 
-* Privacyデザインラボ
-  * 12/15（金） 19:00〜21:30
 * [X-Tech JAWS]
   * 12/21（月） 19:00〜21:00
 * [Fin-JAWS]
@@ -40,17 +39,10 @@ https://fintech-engineer.connpass.com/event/193987/
 
 ---
 
-### データの可視化に関するお薦め図書
+### スクレイピング・テキスト解析に関するお薦め図書
 
 <a href="https://www.amazon.co.jp/dp/4774192198"><img src="/slide09-base/images/book01.jpg" height="200"></a>　
 <a href="https://www.amazon.co.jp/dp/4815604053"><img src="/slide09-base/images/book02.jpeg" height="200"></a>　
-
-+++
-
-### Pythonデータ可視化に関するお薦め図書
-
-<a href="https://www.amazon.co.jp/dp/4297115689"><img src="/slide09-base/images/book03.jpg" height="200"></a>　
-<a href="https://www.amazon.co.jp/dp/4254122586"><img src="/slide09-base/images/book04.jpeg" height="200"></a>　
 
 ---
 

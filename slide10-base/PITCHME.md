@@ -1,4 +1,4 @@
-### データの可視化
+### スクレイピング・テキスト解析
 
 2020年12月22日[Tue] / STAR Project
 
@@ -16,33 +16,21 @@
 
 ---
 
-+++
-
 ### お知らせ
 
-* [X-Tech JAWS]
-  * 12/21（月） 19:00〜21:00
-* [Fin-JAWS]
-  * 12/22（火） 19:00〜21:00
-* [みんなのPython勉強会#64](https://startpython.connpass.com/event/195410/)
-  * 12/09（水） 19:00〜21:00
-* [VUCA Labo]
-  * 2021年1月開催
-
-+++
-
-### [12/11]フィンテックトレンド 2021
-
-https://fintech-engineer.connpass.com/event/193987/
-
-<img src="/slide08-base/images/fin11.jpg" height="480">
+* [みんなのPython勉強会#65](https://startpython.connpass.com/event/198770/)
+  * 2021年2/13（水） 19:00〜21:00
+* [VUCA Labo](https://vucalabo.connpass.com/)
+  * 2021年1月27日(水) 20:00〜20:30
+* [フィンテックエンジニア養成勉強会](https://fintech-engineer.connpass.com/)
+  * 2021年2月6日(金)19:00〜21:00
 
 ---
 
 ### スクレイピング・テキスト解析に関するお薦め図書
 
-<a href="https://www.amazon.co.jp/dp/4774192198"><img src="/slide09-base/images/book01.jpg" height="200"></a>　
-<a href="https://www.amazon.co.jp/dp/4815604053"><img src="/slide09-base/images/book02.jpeg" height="200"></a>　
+<a href="https://www.amazon.co.jp/dp/4798161918"><img src="/slide10-base/images/book01.jpg" height="200"></a>　
+<a href="https://www.amazon.co.jp/dp/4844378864"><img src="/slide10-base/images/book02.jpeg" height="200"></a>　
 
 ---
 

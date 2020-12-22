@@ -151,7 +151,6 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 import time
 url="https://hatenablog.com/"
-
 options=Options()
 options.binary_location = '/Applications/Firefox Developer Edition.app/Contents/MacOS/firefox'
 options.add_argument('-headless')

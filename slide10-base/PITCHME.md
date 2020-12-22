@@ -65,7 +65,7 @@ Webサイトではクローリングを制御するためにrobots.txtが置か�
 クローリング時は、このテキスト内のルールに従わねばならない。
 
 ```
-!pip install reppy
+pip install reppy
 ```
 
 ```
@@ -84,7 +84,7 @@ agent.allowed("https://allabout.co.jp/r_finance/")
 * Webサイトの情報取得や画像の収集を簡単に行える
 
 ```
-!pip install requests
+pip install requests
 ```
 
 ```
@@ -152,6 +152,9 @@ pip install selenium
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 import time
+```
+
+```
 url="https://hatenablog.com/"
 options=Options()
 options.binary_location = '/Applications/Firefox Developer Edition.app/Contents/MacOS/firefox'
@@ -178,7 +181,9 @@ HTTPプロトコルを用いてネットワーク越しに呼び出すアプリ�
 ```
 import requests
 import json
+```
 
+```
 # 現在の天気を取得する：東京
 url = "http://api.openweathermap.org/data/2.5/weather?q={city}&appid={key}&lang=ja&units=metric"
 url = url.format(city="Tokyo,JP", key="XXXXXXXXXX")
@@ -245,7 +250,7 @@ apt install python3-pdfminer
 ```
 
 ```
-!pip install pdfminer.six
+pip install pdfminer.six
 ```
 
 +++

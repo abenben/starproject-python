@@ -270,6 +270,7 @@ with open(output_path,"ab") as output:
 ### 2.2.形態素解析（MeCab）
 
 文章を意味を持つ最小の単位（=形態素）に分け、それぞれのパーツの品詞などを判別する解析手法
+MeCabが一番標準的
 
 ```
 >> 庭には二羽鶏がいます
@@ -296,8 +297,6 @@ aptitude install mecab libmecab-dev mecab-ipadic-utf8 git make curl xz-utils fil
 pip install mecab-python3==0.7
 ```
 
-+++
-
 ```
 mecab = MeCab.Tagger ("-Ochasen")
 text = mecab.parse ("すもももももももものうち")
@@ -320,8 +319,6 @@ print(text)
 pip install janome
 ```
 
-+++
-
 ```
 from janome.tokenizer import Tokenizer
 t = Tokenizer()
@@ -336,7 +333,7 @@ for n in malist:
 
 文章中で出現頻度が高い単語を選んで、その頻度に応じた大きさで図示する手法のこと
 
-<img src="/slide10-base/images/wordcloud.png" height="200">
+<img src="/slide10-base/images/wordcloud.png" height="350">
 
 +++
 

@@ -59,8 +59,6 @@ Webサイトではクローリングを制御するために
 robots.txtが置かれている。
 クローリング時は、この中のルールに従わねばならない。
 
-+++
-
 ```
 !pip install reppy
 ```
@@ -79,8 +77,6 @@ agent.allowed("https://allabout.co.jp/r_finance/")
 
 * Python の HTTP 通信ライブラリ。
 * Webサイトの情報取得や画像の収集を簡単に行える
-
-+++
 
 ```
 !pip install requests
@@ -147,11 +143,7 @@ Web ブラウザの操作を自動化するためのフレームワーク
 
 HTTPプロトコルを用いてネットワーク越しに呼び出すアプリケーション間、システム間のインターフェースのこと。
 
-+++
-
-#### 1.2.1.Web APIの例
-
-無料天気予報APIのOpenWeatherMapを使ってみる
+例：無料天気予報APIのOpenWeatherMapを使ってみる
 
 ```
 import requests
@@ -203,7 +195,7 @@ scrapy startproject [プロジェクト名]
 * 2.3.形態素解析（janome）
 * 2.4.ワードクラウド
 
-+++
+---
 
 #### 2.1.PDFからテキスト抽出
 
@@ -244,7 +236,7 @@ with open(output_path,"ab") as output:
         device.close()
 ```
 
-++++
+---
 
 ### 2.2.形態素解析（MeCab）
 
@@ -283,7 +275,7 @@ text = mecab.parse ("すもももももももものうち")
 print(text)
 ```
 
-+++
+---
 
 ### 2.3.形態素解析（janome）
 
@@ -309,7 +301,7 @@ for n in malist:
     print(n)
 ```
 
-+++
+---
 
 ### 2.4.ワードクラウド
 
@@ -357,7 +349,7 @@ wordcloud = WordCloud(
 
 ### 次回のPython講義
 
-2021/1/未定
+2021/1/（調整中）
 
 * GitHub
 

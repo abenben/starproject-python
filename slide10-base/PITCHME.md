@@ -171,7 +171,7 @@ driver.quit()
 
 HTTPプロトコルを用いてネットワーク越しに呼び出すアプリケーション間、システム間のインターフェースのこと。
 
-例：無料天気予報API（OpenWeatherMap）を使う
+例：[無料天気予報API（OpenWeatherMap）](https://openweathermap.org/api)を使う
 
 ```
 import requests

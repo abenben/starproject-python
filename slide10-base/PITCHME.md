@@ -203,8 +203,6 @@ print("天気詳細 = ", jsondata["weather"][0]["description"])
 
 Pythonでクローラーを実装するためのフレームワークです
 
-+++
-
 ```
 pip install scrapy
 ```

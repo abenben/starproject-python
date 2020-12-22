@@ -36,6 +36,9 @@
 
 ## 1.スクレイピング
 
+Webから情報をとってくること。
+Web API、pandas表取り込み、スクレイピングの順がお薦め。
+
 * 1.1.スクレイピング
 * 1.2.Web APIサービス
 * 1.3.クローリング
@@ -128,6 +131,14 @@ df[0]
 #### 1.1.5 Selenium
 
 Web ブラウザの操作を自動化するためのフレームワーク
+スクレイピングにも使える（ログインなど）
+
+```
+ソフトのインストール（Mac）
+brew update
+brew install selenium-server-standalone
+brew install chromedriver
+```
 
 ```
 pip install selenium
@@ -349,9 +360,10 @@ wordcloud = WordCloud(
 
 #### まとめ（スクレイピング・テキスト解析）
 
-* xxxxx
-* yyyyy
-* zzzzz
+* Webのデータは規則に従えば取得できる。
+* API、pandas表取り込み、スクレイピングの順がお薦め。
+* スクレイピングを自動化するフレームワークがある。
+* 日本語の解析には形態素解析を利用する。
 
 ---
 

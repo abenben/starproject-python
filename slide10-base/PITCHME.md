@@ -37,7 +37,7 @@
 ## 1.スクレイピング
 
 * 1.1.スクレイピング
-* 1.2.Webサービス
+* 1.2.Web APIサービス
 * 1.3.クローリング
 
 ---
@@ -55,11 +55,9 @@
 
 ### 1.1.1.robots.txt
 
-```
-Webサイトは、クローリングを制御するために
-robots.txtを置いている
-この中のルールに従わねばならない
-```
+Webサイトではクローリングを制御するために
+robots.txtが置かれている。
+クローリング時は、この中のルールに従わねばならない。
 
 +++
 
@@ -79,10 +77,8 @@ agent.allowed("https://allabout.co.jp/r_finance/")
 
 ### 1.1.2.requests
 
-```
-Python の HTTP 通信ライブラリ。
-Webサイトの情報取得や画像の収集を簡単に行える。
-```
+* Python の HTTP 通信ライブラリ。
+* Webサイトの情報取得や画像の収集を簡単に行える
 
 +++
 
@@ -102,22 +98,71 @@ print(response.text)
 
 ### 1.1.3.BeautifulSoup
 
+* HTMLやXMLからデータを引き出すことができるライブラリ
+* HTMLを先頭からたどらずに、目的のidやclassを検索してその中から解析できるのがメリット
+
 +++
+
+```
+import requests
+from bs4 import BeautifulSoup
+
+# Webページを取得して解析する
+load_url = "https://www.ymori.com/books/python2nen/test2.html"
+html = requests.get(load_url)
+soup = BeautifulSoup(html.content, "html.parser")
+
+# title、h2、liタグを検索して、その文字列を表示する
+print(soup.find("title").text)
+```
 
 #### 1.1.4.pandasでテーブル取得
 
-+++
+HTML上のテーブルタグはpandasの表に簡単に取り込める
+
+```
+import pandas as pd
+url="https://info.finance.yahoo.co.jp/ranking/?kd=45"
+df=pd.read_html(url)
+df[0]
+```
 
 #### 1.1.5 Selenium
 
-+++
-
-### 1.2.Webサービス
-
+Web ブラウザの操作を自動化するためのフレームワーク
 
 +++
 
-#### 1.2.1.xxx
+```
+
+```
+
++++
+
+### 1.2.Web API サービス
+
+HTTPプロトコルを用いてネットワーク越しに呼び出すアプリケーション間、システム間のインターフェースのこと。
+
++++
+
+#### 1.2.1.Web APIの例
+
+無料天気予報APIのOpenWeatherMapを使ってみる
+
+```
+import requests
+import json
+
+# 現在の天気を取得する：東京
+url = "http://api.openweathermap.org/data/2.5/weather?q={city}&appid={key}&lang=ja&units=metric"
+url = url.format(city="Tokyo,JP", key="XXXXXXXXXX")
+
+jsondata = requests.get(url).json()
+print("都市名   = ", jsondata["name"])
+print("気温　　 = ", jsondata["main"]["temp"])
+print("天気　　 = ", jsondata["weather"][0]["main"])
+print("天気詳細 = ", jsondata["weather"][0]["description"])
+```
 
 ---
 
@@ -132,7 +177,18 @@ print(response.text)
 
 #### 1.3.1.scrapy
 
+Python でクローラーを実装するためのフレームワークです
 
++++
+
+```
+pip install scrapy
+```
+
+```
+# クローラープロジェクトの作成
+scrapy startproject [プロジェクト名]
+```
 
 ---
 
@@ -184,6 +240,7 @@ with open(output_path,"ab") as output:
         device.close()
 ```
 
+++++
 
 ### 2.1.2.形態素解析（MeCab）
 
@@ -222,6 +279,8 @@ text = mecab.parse ("すもももももももものうち")
 print(text)
 ```
 
++++
+
 ### 2.1.3.形態素解析（janome）
 
 * メリット
@@ -246,7 +305,13 @@ for n in malist:
     print(n)
 ```
 
++++
+
 ### 2.1.4.ワードクラウド
+
+文章中で出現頻度が高い単語を選んで、その頻度に応じた大きさで図示する手法のこと
+
+<img src="/slide10-base/images/wordcloud.png" height="200">
 
 +++
 

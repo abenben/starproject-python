@@ -97,8 +97,6 @@ print(response.text)
 * HTMLやXMLからデータを引き出すことができるライブラリ
 * HTMLを先頭からたどらずに、目的のidやclassを検索してその中から解析できるのがメリット
 
-+++
-
 ```
 import requests
 from bs4 import BeautifulSoup
@@ -131,10 +129,30 @@ df[0]
 
 Web ブラウザの操作を自動化するためのフレームワーク
 
+```
+pip install selenium
+```
+
 +++
 
 ```
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+import time
+url="https://hatenablog.com/"
 
+options=Options()
+options.binary_location = '/Applications/Firefox Developer Edition.app/Contents/MacOS/firefox'
+options.add_argument('-headless')
+driver = webdriver.Firefox(firefox_options=options)
+driver.get(url)
+width=driver.execute_script("returndocument.body.scrollWidth")
+height=driver.execute_script("returndocument.body.scrollHeight")
+driver.set_window_size(width,height)
+time.sleep(3)
+driver.save_screenshot("screenshot.png")
+time.sleep(3)
+driver.quit()
 ```
 
 ---

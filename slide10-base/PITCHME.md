@@ -30,7 +30,9 @@
 ### スクレイピング・テキスト解析に関するお薦め図書
 
 <a href="https://www.amazon.co.jp/dp/4798161918"><img src="/slide10-base/images/book1.jpg" height="200"></a>　
-<a href="https://www.amazon.co.jp/dp/4844378864"><img src="/slide10-base/images/book2.jpg" height="200"></a>　
+<a href="https://www.amazon.co.jp/dp/4844378864"><img src="/slide10-base/images/book2.jpg" height="200"></a>
+<a href="https://www.amazon.co.jp/dp/4297107384"><img src="/slide10-base/images/book3.jpg" height="200"></a>
+<a href="https://www.amazon.co.jp/dp/4873118719"><img src="/slide10-base/images/book4.jpg" height="200"></a>　
 
 ---
 

@@ -255,13 +255,13 @@ from pdfminer.pdfinterp import PDFResourceManager,PDFPageInterpreter
 from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
 from pdfminer.pdfpage import PDFPage
-
+```
+```
 input_path="XXXXX.pdf"
 output_path="YYYYY.txt"
 rsrcmgr=PDFResourceManager()
 codec="utf8"
 params=LAParams()
-
 with open(output_path,"ab") as output:
     device=TextConverter(rsrcmgr,output,codec=codec,laparams=params)
     with open(input_path,"rb") as input:
